@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { CiLight } from "react-icons/ci";
+import { MdLightMode } from "react-icons/md";
 
 const Theme = () => {
   const [isDarkMode, setIsDarkMode] = useState(
@@ -15,21 +17,16 @@ const Theme = () => {
   };
 
   return (
-    <label
-      htmlFor="darkModeToggle"
+    <div
       className="relative inline-flex items-center cursor-pointer"
+      onClick={toggleDarkMode}
     >
-      <input
-        type="checkbox"
-        id="darkModeToggle"
-        className="sr-only peer"
-        checked={isDarkMode}
-        onChange={toggleDarkMode}
-      />
-      <div
-        className={`w-12 h-7 bg-gray-200 rounded-full peer dark:bg-gray-700 transition duration-300 ease-in-out peer-focus:ring-4 peer-focus:ring-blue-100 dark:peer-focus:ring-slate-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 dark:border-gray-600 peer-checked:bg-slate-600`}
-      ></div>
-    </label>
+      {isDarkMode ? (
+        <MdLightMode className="text-gray-300 dark:text-gray-700" size={25}/>
+      ) : (
+        <CiLight className="text-light-primary" size={25} />
+      )}
+    </div>
   );
 };
 

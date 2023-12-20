@@ -10,6 +10,7 @@ export default {
       fontFamily:{
         'secondary': ['Kalnia', 'sans-serif'],
         'primary': ['Roboto', 'serif'],
+        
       },
       colors:{
         'background-light':"#F1F5F9",
@@ -21,6 +22,7 @@ export default {
         'blue':'#818CF8',
         'green':'#93E3FC',
         'teal':"#2DD4BF",
+        'DarkBlue':'#5844D7',
 
         'dark-p':"#FFFFFF",
         'dark-s':"#94A3B8",
@@ -29,10 +31,11 @@ export default {
         'light-cards':"#020617",
         
       },
-      fontSize: {
-        'header': '2rem', 
-        'primary-text': '1rem', 
+      letterSpacing: {
+        'trackmod': '25px',
+        'center': '0', 
       },
+    
     },
   },
   plugins: [],
