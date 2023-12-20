@@ -7,7 +7,7 @@ import ShapesRandom from "../components/ShapesRandom";
 const Home = () => {
   return (
     <div className="flex items-center justify-center h-screen transition-all duration-300 ease-in-out font-primary bg-background-light dark:bg-background-dark">
-      <div className="flex relative flex-col items-center justify-between h-[500px]">
+      <div className="flex relative flex-col items-center justify-between h-[400px] md:h-[500px]">
         <div className="flex flex-col items-center justify-center gap-2 text-center md:gap-6 text-light-p">
           <div className="absolute xl:w-[50rem]  top-10 px-3 xl:top-11">
             <img src={HeroText} alt="" className="" />
@@ -25,7 +25,7 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col items-center justify-center gap-2 text-center">
-          <img src={Profile} alt="" className="h-[50px]" />
+          <img src={Profile} alt="" className="h-[60px]" />
           <h1 className="translate-x-4 tracking-trackmod dark:text-dark-p">
             {" "}
             KIN.DEV
