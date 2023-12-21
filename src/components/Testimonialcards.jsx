@@ -1,5 +1,10 @@
-import React from "react";
-import Profile from "/KinProfile.png"; // Assuming the image is in the same directory
+import Profile from "/KinProfile.png";
+import React, { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import { EffectCoverflow, Pagination } from "swiper/modules";
 
 const TestimonialCard = ({ person }) => {
   return (
@@ -19,15 +24,44 @@ const TestimonialCard = ({ person }) => {
 
 const TestimonialCards = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full gap-10 px-2 my-10 lg:flex-row xl:px-20">
-      <div className="xl:w-1/4">
-       <p className="my-5 text-start md:text-5xl font-secondary text-blue">Transforming Visions into Digital Realities</p>
+    <div>
+      <div className="flex-col items-center justify-center hidden w-full gap-10 px-2 my-10 md:flex lg:flex-row xl:px-20">
+        <div className="xl:w-1/4">
+          <p className="my-2 text-5xl text-start font-secondary text-blue">
+            Transforming Visions into Digital Realities
+          </p>
+        </div>
+        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3 ">
+          {Person.map((person, index) => (
+            <TestimonialCard key={index} person={person} />
+          ))}
+        </div>
       </div>
-<div className="grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3 ">
-        {Person.map((person, index) => (
-          <TestimonialCard key={index} person={person} />
-        ))}
+      <div className="px-2 my-10 md:hidden">
+        <Swiper
+          effect={"coverflow"}
+          grabCursor={true}
+          centeredSlides={true}
+          slidesPerView={"auto"}
+          coverflowEffect={{
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          }}
+          pagination={true}
+          modules={[EffectCoverflow, Pagination]}
+          className="mySwiper"
+        >
+          {Person.map((person, index) => (
+            <SwiperSlide key={index}>
+              <TestimonialCard person={person} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
+      <p className="font-light text-center text-light-p dark:text-dark-p">"I express gratitude to them for consistently supporting me."</p>
     </div>
   );
 };
@@ -46,7 +80,7 @@ const Person = [
     name: "Rosalyn",
     relation: "Classmate",
     testimonial:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     date: "12/17/2023",
   },
   {
@@ -54,7 +88,7 @@ const Person = [
     name: "Kin",
     relation: "Classmate",
     testimonial:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     date: "12/17/2023",
   },
   {
@@ -62,7 +96,7 @@ const Person = [
     name: "Tajor",
     relation: "Classmate",
     testimonial:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     date: "12/17/2023",
   },
   {
@@ -70,7 +104,7 @@ const Person = [
     name: "John Doe",
     relation: "Classmate",
     testimonial:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     date: "12/17/2023",
   },
   {
@@ -78,11 +112,9 @@ const Person = [
     name: "Rosalyn",
     relation: "Classmate",
     testimonial:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     date: "12/17/2023",
   },
- 
-
 ];
 
 export default TestimonialCards;

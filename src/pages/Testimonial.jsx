@@ -17,7 +17,7 @@ const Testimonial = () => {
               className="-translate-x-3 -translate-y-4"
             />
           </span>
-          <p className="relative z-10 text-2xl lg:text-3xl">
+          <p className="relative text-xl lg:text-3xl">
             &emsp; &emsp;Thrilled to share my experience with web development,
             where every project is a learning journey. The process of turning
             ideas into code has been both challenging and rewarding. Grateful
@@ -25,13 +25,12 @@ const Testimonial = () => {
             what's ahead in my web development journey!
           </p>
 
-          <p className="mt-10 text-2xl ">Jason Kean</p>  
-          <p>Aspiring to be a WebDeveloper</p>
+          <p className="mt-10 lg:text-2xl ">- Jason Kean</p>  
+          <p className="text-sm">Aspiring to be a WebDeveloper</p>
         </div>
       </div>
 
-      <div className="flex flex-col px-2 mt-10 font-light lg:mt-32 text-light-p dark:text-dark-p lg:px-20">
-        <p className="font-light">Speak</p>
+      <div className="flex flex-col px-2 mt-32 font-light lg:mt-32 text-light-p dark:text-dark-p lg:px-20">
         <p className="text-4xl">Testimonials</p>
       </div>
 
