@@ -16,14 +16,14 @@
 }
 .Div-6 {
   position: relative;
-  background-image: url("Github.png");
+  background-image: url(Github.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .AiGpt{
   position: relative;
-  background-image: url("ChatgptAi.png");
+  background-image: url(ChatgptAi.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

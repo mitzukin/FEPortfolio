@@ -6,10 +6,10 @@ import ShapesRandom from "../components/ShapesRandom";
 
 const HeroSection = () => {
   return (
-    <div className="flex items-center justify-center h-screen transition-all duration-300 ease-in-out font-primary bg-background-light dark:bg-background-dark">
-      <div className="flex w-full relative flex-col items-center justify-between h-[550px] md:h-[750px]">
-        <div className="flex flex-col items-center justify-center gap-2 mt-10 text-center md:gap-6 text-light-p">
-          <div className="absolute xl:w-[50rem]  top-16 px-3 xl:top-16">
+    <div className="flex items-center justify-center h-screen pt-20 transition-all duration-300 ease-in-out font-primary bg-background-light dark:bg-background-dark">
+      <div className="flex w-full relative flex-col items-center justify-between h-[600px] md:h-[750px]">
+        <div className="flex flex-col items-center justify-center gap-2 mt-16 text-center md:gap-6 text-light-p">
+          <div className="absolute xl:w-[50rem]  top-16 px-3 xl:top-28">
             <img src={HeroText} alt="" className="" />
           </div>
           <p className="md:text-3xl font-light translate-x-4 tracking-[25px] dark:text-dark-p">

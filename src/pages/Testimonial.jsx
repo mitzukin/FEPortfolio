@@ -4,8 +4,8 @@ import Testimonialcards from "../components/Testimonialcards";
 
 const Testimonial = () => {
   return (
-    <div className="px-2 pt-56 transition-all duration-300 ease-in-out font-primary bg-background-light dark:bg-background-dark">
-      <div className="flex flex-col font-light md:flex-row text-light-p dark:text-dark-p lg:px-20">
+    <div className="pt-56 transition-all duration-300 ease-in-out font-primary bg-background-light dark:bg-background-dark">
+      <div className="flex flex-col px-2 font-light md:flex-row text-light-p dark:text-dark-p lg:px-20">
         <p className="w-1/2 mb-10">My Testimonial</p>
         <div className="relative">
           <span className="absolute top-0 flex -left-4">
@@ -30,12 +30,12 @@ const Testimonial = () => {
         </div>
       </div>
 
-      <div className="flex flex-col mt-32 font-light lg:mt-56 text-light-p dark:text-dark-p lg:px-20">
-        <p className="font-semibold">Speak</p>
+      <div className="flex flex-col px-2 mt-10 font-light lg:mt-32 text-light-p dark:text-dark-p lg:px-20">
+        <p className="font-light">Speak</p>
         <p className="text-4xl">Testimonials</p>
       </div>
 
-      <div className="overflow-hidden lg:px-20">
+      <div className="pb-10 overflow-hidden lg:px-20">
         <Testimonialcards/>
       </div>
     </div>
