@@ -23,6 +23,7 @@ export default {
         'green':'#93E3FC',
         'teal':"#2DD4BF",
         'DarkBlue':'#5844D7',
+        'tealGrad':'#1F302E',
 
         'dark-p':"#FFFFFF",
         'dark-s':"#94A3B8",
@@ -30,11 +31,13 @@ export default {
         'dark-cards':"#111423",
         'light-cards':"#020617",
         
+        
       },
       letterSpacing: {
         'trackmod': '25px',
         'center': '0', 
       },
+     
     
     },
   },

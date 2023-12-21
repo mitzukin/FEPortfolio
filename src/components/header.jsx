@@ -22,7 +22,7 @@ const Header = () => {
       <Navbar />
       </div>
       
-      <div className='flex items-center gap-2 text-light-p dark:text-dark-p'>
+      <div className='flex flex-row-reverse items-center gap-2 text-light-p dark:text-dark-p'>
         {/* Mobile Navbar with Hamburger Button */}
         <div className='flex items-center justify-center md:hidden'>
           <button
@@ -56,7 +56,7 @@ const Header = () => {
         </div>
         <div className='flex items-center justify-center gap-2 '>
         <Theme />
-        <Link to='/' className='absolute hidden text-xs right-4 lg:flex'>Hire me!</Link>
+        <Link to='/' className='absolute hidden text-xs right-32 lg:flex'>Hire me!</Link>
         
         </div>
       </div>
