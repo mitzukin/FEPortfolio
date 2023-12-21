@@ -31,7 +31,7 @@ const TestimonialCards = () => {
             Transforming Visions into Digital Realities
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3 ">
+        <div className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 ">
           {Person.map((person, index) => (
             <TestimonialCard key={index} person={person} />
           ))}
@@ -101,7 +101,7 @@ const Person = [
   },
   {
     image: Profile,
-    name: "John Doe",
+    name: "Kin",
     relation: "Classmate",
     testimonial:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -109,12 +109,13 @@ const Person = [
   },
   {
     image: Profile,
-    name: "Rosalyn",
+    name: "Tajor",
     relation: "Classmate",
     testimonial:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     date: "12/17/2023",
   },
+
 ];
 
 export default TestimonialCards;
