@@ -16,16 +16,16 @@
 }
 .Div-6 {
   position: relative;
-  background-image: url(Github.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.AiGpt{
-  position: relative;
-  background-image: url(ChatgptAi.png);
+  background-image: url('/Github.png'); /* Adjust the path as needed */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.AiGpt {
+  position: relative;
+  background-image: url('/ChatgptAi.png'); /* Adjust the path as needed */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
