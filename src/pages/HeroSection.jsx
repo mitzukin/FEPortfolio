@@ -34,7 +34,7 @@ const HeroSection = () => {
             data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
             data-aos-delay="700"
-            data-aos-offset="0"
+            
             className="text-3xl font-bold Designer dark:text-teal font-Accent text-DarkBlue"
           >
             & UI DESIGNER
@@ -64,11 +64,10 @@ const HeroSection = () => {
             data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
             data-aos-delay="1500"
-            data-aos-offset="0"
-            className="translate-x-4 tracking-trackmod dark:text-dark-p"
+            className="text-center dark:text-dark-p"
           >
-            {" "}
-            KIN.DEV
+         
+            K&emsp;I&emsp;N&emsp;.&emsp;D&emsp;E&emsp;V
           </h1>
           <motion.div
             data-aos="fade-zoom-in"
@@ -84,7 +83,7 @@ const HeroSection = () => {
         </div>
         <div className="flex flex-col items-start justify-between w-full gap-10 px-3 text-xs font-light font-Accent dark:text-dark-p lg:px-20 md:text-sm md:flex-row">
           <p className="hidden md:flex">LEARN</p>
-          <div className="hidden w-full translate-y-2 border-b border-blue dark-border-dark-p md:flex"></div>
+          <div className="hidden w-full translate-y-2 border-b-2 border-teal dark-border-dark-p md:flex"></div>
           <div
             data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
