@@ -7,6 +7,7 @@ import Work from './pages/work';
 import Layout from './layouts/Layout';
 import './index.css';
 
+
 const App = () => {
   return (
     <Router basename='/FEPortfolio'>

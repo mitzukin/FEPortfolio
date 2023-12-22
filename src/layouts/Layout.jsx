@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import { scroll } from 'framer-motion/dom';
 
 const Layout = ({ children }) => {
   const [isHeaderVisible, setIsHeaderVisible] = useState(false);
@@ -19,11 +18,9 @@ const Layout = ({ children }) => {
     };
   }, []);
 
-
   return (
-    <div>
-   
-      {isHeaderVisible && <Header />}
+    <div className={`layout-container ${isHeaderVisible ? 'header-visible' : ''}`}>
+      <Header />
       <main>{children}</main>
       <Footer />
     </div>

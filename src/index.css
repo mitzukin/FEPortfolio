@@ -68,3 +68,14 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#521EFF", en
     transform: rotate(360deg);
   }
 }
+
+.progress-bar {
+  position: fixed;
+  top: 20%;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: white;
+  transform-origin: 0%;
+}
+

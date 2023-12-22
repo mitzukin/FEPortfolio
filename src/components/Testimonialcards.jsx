@@ -5,15 +5,21 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import { FaDiscord, FaFacebook, FaTwitter } from "react-icons/fa";
-
+import { motion } from "framer-motion";
 const TestimonialCard = ({ person }) => {
   return (
-    <div className="flex flex-col justify-between gap-5 p-5 border border-gray-200 rounded-lg text-light-p dark:text-dark-p dark:border-none dark:bg-dark-cards">
+    <div
+      data-aos="fade-up"
+      duration="500"
+      className="flex flex-col justify-between gap-3 p-5 border border-gray-200 rounded-lg text-light-p dark:text-dark-p dark:border-slate-800 dark:bg-dark-cards"
+    >
       <div className="flex items-center justify-start gap-2">
         <img src={person.image} alt="" className="h-[50px] rounded-full" />
         <div>
-          <h1 className="text-sm font-dark text-blue">{person.name}</h1>
-          <p className="text-xs font-light">{person.relation}</p>
+          <h1 className="text-sm font-dark font-Accent text-blue">
+            {person.name}
+          </h1>
+          <p className="text-xs font-normal">{person.relation}</p>
         </div>
       </div>
       <div className="flex items-center justify-start gap-2 text-sm text-dark-s ">
@@ -22,8 +28,10 @@ const TestimonialCard = ({ person }) => {
         <FaTwitter />
       </div>
       <div></div>
-      <p className="text-sm font-light">{person.testimonial}</p>
-      <p className="text-xs font-light text-dark-s">{person.date}</p>
+      <p className="text-sm font-normal dark:font-light dark:text-dark-p text-light-p font-Roboto">
+        {person.testimonial}
+      </p>
+      <p className="text-xs dark:font-light text-dark-s">{person.date}</p>
     </div>
   );
 };
@@ -31,10 +39,12 @@ const TestimonialCard = ({ person }) => {
 const TestimonialCards = () => {
   return (
     <div>
-      <div className="flex-col items-center justify-center hidden w-full gap-10 px-2 my-10 md:flex lg:flex-row xl:px-56">
-        <div className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 ">
+      <div className="flex-col items-center justify-center hidden w-full gap-5 px-2 my-10 md:flex lg:flex-row xl:px-32">
+        <div className="grid grid-cols-1 gap-3 0 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 ">
           {Person.map((person, index) => (
-            <TestimonialCard key={index} person={person} />
+            <div className="duration-500 hover:scale-105">
+              <TestimonialCard key={index} person={person} />
+            </div>
           ))}
         </div>
       </div>
@@ -55,7 +65,7 @@ const TestimonialCards = () => {
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
         >
-          {Person.slice(0,3).map((person, index) => (
+          {Person.slice(0, 3).map((person, index) => (
             <SwiperSlide key={index}>
               <TestimonialCard person={person} />
             </SwiperSlide>

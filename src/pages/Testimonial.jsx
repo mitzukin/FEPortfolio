@@ -7,7 +7,7 @@ const Testimonial = () => {
     <div className="relative pt-56 transition-all duration-300 ease-in-out font-primary bg-background-light dark:bg-background-dark">
       <div className="flex flex-col gap-10 px-2 font-light xl:flex-row text-light-p dark:text-dark-p lg:px-20">
         <div className="flex flex-col w-full mb-5 ">
-          <p className="mb-5 font-Accent">My Testimonial</p>
+          <p className="mb-5 font-Accent" data-aos='fade-right' data-aos-duration="500">My Testimonial</p>
           <div className="md:border-b  w-[400px]"></div>
         </div>
         <div className="relative">
@@ -21,7 +21,7 @@ const Testimonial = () => {
               className="-translate-x-3 -translate-y-4"
             />
           </span>
-          <p className="relative text-xl lg:text-3xl">
+          <p className="relative text-xl lg:text-3xl"  data-aos='fade-up' data-aos-duration="500">
             &emsp; &emsp;Thrilled to share my experience with web development,
             where every project is a learning journey. The process of turning
             ideas into code has been both challenging and rewarding. Grateful
@@ -29,13 +29,13 @@ const Testimonial = () => {
             what's ahead in my web development journey!
           </p>
 
-          <p className="mt-10 lg:text-2xl ">- Jason Kean</p>
-          <p className="text-sm">Aspiring to be a WebDeveloper</p>
+          <p className="mt-10 lg:text-2xl " data-aos='fade-up' data-aos-duration="500" >- Jason Kean</p>
+          <p className="text-sm"  data-aos='fade-up' data-aos-duration="500">Aspiring to be a WebDeveloper</p>
         </div>
       </div>
 
       <div className="flex flex-col px-2 mt-32 font-light lg:mt-32 text-light-p dark:text-dark-p lg:px-20">
-        <p className="text-5xl font-Accent text-blue">Testimonials</p>
+        <p className="text-5xl font-Accent text-blue"  data-aos='fade-right' data-aos-duration="500">Testimonials</p>
       </div>
 
       <div className="pb-10 overflow-hidden lg:px-20">

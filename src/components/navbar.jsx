@@ -1,24 +1,41 @@
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.5
+    },
+  },
+};
 
-import { Link } from 'react-router-dom';
+const item = {
+  hidden: { opacity: 0 },
+  show: { opacity: 1 },
+};
 
 const Navbar = () => {
- 
-
   return (
     <div>
-      <nav className=''>
+      <nav className="">
         {/* Desktop Navbar */}
-        <ul className='justify-between hidden gap-20 text-sm md:flex '>
-          <li>
+        <motion.ul
+          variants={container}
+          initial="hidden"
+          animate="show"
+          className="justify-between hidden gap-20 text-sm md:flex "
+        >
+          <motion.li variants={item}>
             <Link to="/">Home</Link>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li variants={item}>
             <Link to="/about">About</Link>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li variants={item}>
             <Link to="/work">Work</Link>
-          </li>
-        </ul> 
+          </motion.li>
+        </motion.ul>
       </nav>
     </div>
   );
