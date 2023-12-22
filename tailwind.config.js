@@ -10,6 +10,7 @@ export default {
       fontFamily:{
         'secondary': ['Kalnia', 'sans-serif'],
         'primary': ['Roboto', 'serif'],
+        'Accent': ['Unbounded', 'sans-serif']
         
       },
       colors:{

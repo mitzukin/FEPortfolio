@@ -7,12 +7,12 @@
   }
   @keyframes pulse {
     from { transform: scale(0.2); }
-    to { transform: scale(0.9); }
+    to { transform: scale(0.5); }
   }
 
 
 .shape {
-  filter: drop-shadow(2px 2px 20px rgba(129, 140, 248, 0.5));
+  filter: drop-shadow(2px 2px 20px rgba(255, 255, 255, 0.5));
 }
 .Div-6 {
   position: relative;
@@ -28,4 +28,43 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+
+.gradient{
+  background: hsla(217, 91%, 60%, 1);
+
+  background: linear-gradient(90deg, hsla(217, 91%, 60%, 1) 0%, hsla(262, 100%, 83%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(217, 91%, 60%, 1) 0%, hsla(262, 100%, 83%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(217, 91%, 60%, 1) 0%, hsla(262, 100%, 83%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3B82F6", endColorstr="#C8A8FF", GradientType=1 );
+}
+
+.Testimonial-Grad{
+  background: hsla(254, 100%, 56%, 1);
+
+background: linear-gradient(90deg, hsla(254, 100%, 56%, 1) 0%, hsla(152, 100%, 83%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(254, 100%, 56%, 1) 0%, hsla(152, 100%, 83%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(254, 100%, 56%, 1) 0%, hsla(152, 100%, 83%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#521EFF", endColorstr="#A8FFD7", GradientType=1 );
+}
+
+.animate-spin{
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

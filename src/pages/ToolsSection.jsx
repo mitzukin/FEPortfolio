@@ -3,7 +3,6 @@ import FigmaIcon from "/FigmaIcon.png";
 import CanvaIcon from "/CanvaIcon.png";
 import VsIcon from "/VsIcon.png";
 import PhotoshopIcon from "/PhotoshopIcon.png";
-
 import SlackIcon from "/SlackIcon.png";
 import CubeTools from "/CubeTools.png";
 
@@ -13,9 +12,9 @@ const ToolsSection = () => {
       <div className="xl:px-32">
         <div className="flex flex-col mt-10 lg:flex-row">
           <div>
-            <h1 className="my-5 text-5xl font-light lg:text-7xl text-light-p dark:text-dark-p">
-              Tools for <strong className="text-blue font-secondary">Personal</strong> &
-              Professional <strong className="text-blue font-secondary">Improvement</strong>{" "}
+            <h1 className="my-5 text-5xl font-light lg:text-6xl text-light-p dark:text-dark-p">
+              Tools for <strong className="text-blue font-Accent">Personal</strong> &
+              Professional <strong className="text-blue font-Accent">Improvement</strong>{" "}
               
             </h1>
             <p className="font-light text-light-p dark:text-dark-p">
@@ -25,7 +24,7 @@ const ToolsSection = () => {
           </div>
           <img src={CubeTools} alt="" className="hidden lg:flex" />
         </div>
-        <div className="grid gap-2 text-light-p dark:text-dark-p lg:grid-cols-8 lg:grid-rows-4 ">
+        <div className="grid gap-2 text-light-p dark:text-dark-p lg:grid-cols-8 lg:grid-rows-4">
           <div className="col-span-2 rounded-lg bg-gradient-to-tr dark:from-dark-cards  border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none  dark:to-light-p  flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 h-[250px] ">
           <div className="flex flex-col items-start justify-center gap-2 p-3 text-xs md:text-sm xl:p-4 md:flex-col">
               <img src={[CardItems[0].img]} alt="" className="pb-5" />
@@ -56,7 +55,7 @@ const ToolsSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-2 rounded-lg  bg-gradient-to-tr dark:from-dark-cards  border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none  dark:to-light-p   flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 h-[250px] ">
+          <div className="col-span-2  rounded-lg  bg-gradient-to-tr dark:from-dark-cards  border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none  dark:to-light-p   flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 h-[250px] ">
           <div className="flex flex-col items-start justify-center gap-2 p-3 text-xs md:text-sm xl:p-4 md:flex-col">
               <img src={[CardItems[4].img]} alt="" className="pb-5" />
               <div className="flex flex-col gap-2">

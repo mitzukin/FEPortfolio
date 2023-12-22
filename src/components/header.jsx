@@ -12,8 +12,10 @@ const Header = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  
+
   return (
-    <header className='sticky top-0 z-10 flex items-center justify-between w-full px-3 py-5 transition-colors duration-500 ease-in-out md:flex lg:px-20 font-secondary bg-background-light dark:bg-background-dark'>
+    <header className='sticky top-0 z-10 flex items-center justify-between w-full px-3 py-5 transition-colors duration-500 ease-in-out border-b border-slate-300 dark:border-gray-900 md:flex lg:px-20 font-Accent bg-background-light dark:bg-background-dark'>
       <div className='flex items-center gap-2'>
         <img src={Logo} alt="" className='h-[30px]'/>
        
@@ -33,17 +35,17 @@ const Header = () => {
           </button>
           {isMobileMenuOpen && (
             <ul className='absolute left-0 flex flex-col w-full h-screen gap-5 px-3 pt-5 bg-background-light top-16 dark:bg-background-dark'>
-              <li className='py-5 border-b '>
+              <li className='py-5 divide-y '>
                 <Link to="/" onClick={toggleMobileMenu}>
                   Home
                 </Link>
               </li>
-              <li className='py-5 border-b '>
+              <li className='py-5 '>
                 <Link to="/about" onClick={toggleMobileMenu}>
                   About
                 </Link>
               </li>
-              <li className='py-5 border-b '>
+              <li className='py-5 '>
                 <Link to="/work" onClick={toggleMobileMenu}>
                   Work
                 </Link>
@@ -56,7 +58,7 @@ const Header = () => {
         </div>
         <div className='flex items-center justify-center gap-2 '>
         <Theme />
-        <Link to='/' className='absolute hidden text-xs right-32 lg:flex'>Hire me!</Link>
+        <Link to='/' className='absolute hidden pl-5 text-xs border-l border-gray-500 right-32 lg:flex'>Hire me!</Link>
         
         </div>
       </div>
