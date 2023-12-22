@@ -72,6 +72,7 @@ const TestimonialCards = () => {
           ))}
         </Swiper>
       </div>
+      <p className="text-xs text-center dark:text-teal font-Accent">Swipe To See More</p>
       <div className="px-2 my-10 md:hidden">
         <Swiper
           effect={"coverflow"}

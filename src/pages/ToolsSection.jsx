@@ -4,13 +4,12 @@ import VsIcon from "/VsIcon.png";
 import PhotoshopIcon from "/PhotoshopIcon.png";
 import SlackIcon from "/SlackIcon.png";
 import CubeTools from "/CubeTools.png";
-import { motion } from "framer-motion";
 
 const ToolsSection = () => {
   return (
     <div className="flex flex-col px-2 pt-10 transition-all duration-300 ease-in-out xl:px-20 font-primary bg-background-light dark:bg-background-dark">
       <div className="xl:px-32">
-        <div className="flex flex-col mt-10 mb-10 lg:flex-row">
+        <div className="flex flex-col mt-10 mb-5 lg:flex-row">
           <div>
             <h1 className="my-5 text-4xl font-light lg:text-6xl text-light-p dark:text-dark-p">
               Tools for{" "}
@@ -24,7 +23,7 @@ const ToolsSection = () => {
             </p>
           </div>
           <img
-            className="h-[200px] animate-bounce w-[200px] "
+            className="h-[200px] mt-10 animate-bounce w-[200px] "
             src={CubeTools}
             alt=""
           />

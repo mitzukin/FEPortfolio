@@ -14,11 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header
-     data-aos="fade-down" data-aos-duration="200"
-     data-aos-easing="ease-out-cubic"
-      className="sticky top-0 z-10 flex items-center justify-between w-full px-3 py-5 transition-colors duration-500 ease-in-out border-b border-slate-300 dark:border-gray-900 md:flex lg:px-20 font-Accent bg-background-light dark:bg-background-dark"
-    >
+    <header className="sticky top-0 z-10 flex items-center justify-between w-full px-3 py-5 transition-colors duration-500 ease-in-out border-b border-slate-300 dark:border-gray-900 md:flex lg:px-20 font-Accent bg-background-light dark:bg-background-dark">
       <div className="flex items-center gap-2">
         <img src={Logo} alt="" className="h-[30px]" />
       </div>
@@ -42,22 +38,25 @@ const Header = () => {
               variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
               className="absolute left-0 flex flex-col w-full h-screen gap-5 px-3 pt-5 bg-background-light top-16 dark:bg-background-dark"
             >
-
-              <motion.div  variants={{
+              <motion.div
+                variants={{
                   hidden: { opacity: 0, x: -50 },
                   visible: { opacity: 1, x: 0 },
-                }} className="flex items-center gap-5">
-                <img src={Profile} alt="" className="h-[50px] w-[50px]"/>
+                }}
+                className="flex items-center gap-5"
+              >
+                <img src={Profile} alt="" className="h-[50px] w-[50px]" />
                 <div>
-                <h1 className="text-Darkblue">Jason Kean Tajor</h1>
-                <p className="text-xs font-light dark:text-dark-s">Inspiring to be a Webdeveloper</p>
+                  <h1 className="text-Darkblue">Jason Kean Tajor</h1>
+                  <p className="text-xs font-light dark:text-dark-s">
+                    Inspiring to be a Webdeveloper
+                  </p>
                 </div>
               </motion.div>
               <motion.li
                 variants={{
                   hidden: { opacity: 0, x: -50 },
                   visible: { opacity: 1, x: 0 },
-
                 }}
                 className="py-5 border-b dark:border-slate-900"
               >
