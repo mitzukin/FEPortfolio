@@ -45,7 +45,7 @@ const HeroSection = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="3900"
             data-aos-offset="0"
-            className="px-3.5 md:font-semibold text-1xl font-Accent md:text-6xl text-light-p dark:text-dark-p"
+            className="px-3.5 md:font-semibold text-1xl font-Accent md:text-6xl text-dark-p dark:text-dark-p"
           >
             Step Into The World Of Mine
           </p>
@@ -92,7 +92,7 @@ const HeroSection = () => {
           >
             <p>EXPLORE</p>
             <p>BELIEVE</p>
-            <p>ACHIEVE</p>
+            <p>ACHIEVE</p>DDF
           </div>
         </div>
       </div>

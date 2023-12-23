@@ -19,6 +19,8 @@ const item = {
   show: { opacity: 1 },
 };
 
+
+
 const Home = () => {
   return (
     <>
@@ -31,9 +33,8 @@ const Home = () => {
             delay: 0.5,
             ease: [0, 0.71, 0.2, 1.01],
           }}
-          className="absolute top-96  gradient inset-0 blur-[200px] md:blur-[300px] "
+          className="absolute dark:top-96 gradient inset-0 blur-[200px] md:blur-[600px] dark:md:blur-[300px] "
         ></motion.div>
-        <div className="absolute h-[300px]  gradient-2 inset-0 "></div>
         <motion.div variants={item}>
           <HeroSection />
         </motion.div>
@@ -44,7 +45,6 @@ const Home = () => {
           <Testimonial />
         </motion.div>
       </motion.div>
-     
     </>
   );
 };

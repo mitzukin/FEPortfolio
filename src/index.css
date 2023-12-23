@@ -57,16 +57,13 @@
 
 
 .gradient {
-  background: hsla(217, 91%, 60%, 1);
+  background: #9333ea;
+  background: -webkit-linear-gradient(335deg, #9333ea 0%, #0ea5e9 100%);
+  background: linear-gradient(335deg, #9333ea 0%, #0ea5e9 100%);
 
-  background: linear-gradient(90deg, hsla(217, 91%, 60%, 1) 0%, hsla(262, 100%, 83%, 1) 100%);
-
-  background: -moz-linear-gradient(90deg, hsla(217, 91%, 60%, 1) 0%, hsla(262, 100%, 83%, 1) 100%);
-
-  background: -webkit-linear-gradient(90deg, hsla(217, 91%, 60%, 1) 0%, hsla(262, 100%, 83%, 1) 100%);
-
-  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#3B82F6", endColorstr="#C8A8FF", GradientType=1);
 }
+
+
 
 .Testimonial-Grad {
   background: hsla(254, 100%, 56%, 1);
@@ -80,16 +77,10 @@
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#521EFF", endColorstr="#A8FFD7", GradientType=1);
 }
 
-.aboutGradient {
-  background: hsla(152, 100%, 50%, 1);
-
-  background: linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-  
-  background: -moz-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-  
-  background: -webkit-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-  
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00FF87", endColorstr="#60EFFF", GradientType=1 );
+.AboutGradient {
+  background: #adb4e2;
+  background: -webkit-linear-gradient(0deg, #adb4e2 0%, #a1e951 100%);
+  background: linear-gradient(0deg, #adb4e2 0%, #a1e951 100%);
 }
 
 .animate-spin {

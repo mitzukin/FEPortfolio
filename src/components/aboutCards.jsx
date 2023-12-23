@@ -15,7 +15,7 @@ const AboutCard = (props) => {
     >
       <div className="flex flex-col gap-1">
         <p className="">{year}</p>
-        <p className="text-sm font-light font-primary">{location}</p>
+        <p className="hidden text-sm font-light font-primary md:flex">{location}</p>
         <p className="text-sm font-light font-primary">{date}</p>
       </div>
       <div className="flex flex-col gap-1">

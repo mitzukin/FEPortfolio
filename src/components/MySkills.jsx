@@ -25,13 +25,27 @@ const MySkills = () => {
   return (
     <div className="bg-background-light font-primary px-3.5 pt-10 lg:px-20 dark:bg-background-dark text-light-p dark:text-dark-p">
       <div className="flex flex-col max-w-6xl gap-3">
-        <h1 className="text-3xl md:text-7xl">
+        <h1
+          className="text-3xl md:text-7xl"
+          data-aos="fade-up"
+          data-aos-duration="500"
+        >
           Explore <strong className="text-teal">My Skills</strong> Unveiling a
           tapestry of Expertise and{" "}
           <strong className="text-blue">Enthusiasm</strong>
         </h1>
-        <p className="pt-10 xl:pl-10">A Latin professor </p>
-        <p className="pb-10 xl:pl-10">
+        <p
+          className="pt-10 xl:pl-10"
+          data-aos="fade-up"
+          data-aos-duration="500"
+        >
+          A Latin professor{" "}
+        </p>
+        <p
+          className="pb-10 xl:pl-10"
+          data-aos="fade-up"
+          data-aos-duration="500"
+        >
           A Latin professor at Hampden-Sydney College in Virginia, looked up one
           of the more obscureprofessor at Hampden-Sydney College in Virginia,
           looked up one of the more obscure Latin words, consectetur,{" "}
@@ -43,7 +57,12 @@ const MySkills = () => {
 
       <div>
         {textItem.map((Textitem, index) => (
-          <div key={index} className="items-center gap-16 p-4 xl:gap-80 lg:flex">
+          <div
+            key={index}
+            data-aos="fade-right"
+          data-aos-duration="1000"
+            className="items-center gap-16 p-4 overflow-hidden xl:gap-80 lg:flex"
+          >
             <h1 className="my-10 text-5xl font-semibold font-Accent">
               {Textitem.Head}
             </h1>
