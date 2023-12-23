@@ -1,5 +1,5 @@
 import React from "react";
-import Figma from "/_figma.png";
+import Figma from "/figma.png";
 const itemsCard = () => {
   return (
     <div className="grid grid-cols-2 gap-2 mx-auto place-content-center md:grid-cols-3 lg:grid-cols-5">
@@ -19,91 +19,82 @@ const itemsCard = () => {
 
 const Items = [
   {
-    img: Figma,
+    img: "figma.png",
     name: "FIGMA",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
-    img: Figma,
+    img: "figma.png",
+    name: "FIGMA",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  }, {
+    img: "figma.png",
+    name: "FIGMA",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  }, {
+    img: "figma.png",
+    name: "FIGMA",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  }, {
+    img: "figma.png",
     name: "FIGMA",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
-    img: Figma,
+    img: "figma.png",
     name: "FIGMA",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
-    img: Figma,
+    img: "figma.png",
+    name: "FIGMA",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  }, {
+    img: "figma.png",
+    name: "FIGMA",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  }, {
+    img: "figma.png",
+    name: "FIGMA",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  }, {
+    img: "figma.png",
     name: "FIGMA",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
-    img: Figma,
+    img: "figma.png",
     name: "FIGMA",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
-    img: Figma,
+    img: "figma.png",
     name: "FIGMA",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    img: Figma,
+  }, {
+    img: "figma.png",
     name: "FIGMA",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    img: Figma,
+  }, {
+    img: "figma.png",
     name: "FIGMA",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    img: Figma,
-    name: "FIGMA",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    img: Figma,
-    name: "FIGMA",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    img: Figma,
-    name: "FIGMA",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    img: Figma,
-    name: "FIGMA",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    img: Figma,
-    name: "FIGMA",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    img: Figma,
-    name: "FIGMA",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    img: Figma,
+  }, {
+    img: "figma.png",
     name: "FIGMA",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
