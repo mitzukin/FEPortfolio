@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 z-10 flex items-center justify-between w-full px-3 py-5 transition-colors duration-500 ease-in-out border-b border-slate-300 dark:border-gray-900 md:flex lg:px-20 font-Accent bg-background-light dark:bg-background-dark">
+    <header className="sticky top-0 z-10 flex items-center justify-between w-full px-3.5 py-5 transition-colors duration-500 ease-in-out border-b border-slate-300 dark:border-gray-900 md:flex lg:px-20 font-Accent bg-background-light dark:bg-background-dark">
       <div className="flex items-center gap-2">
         <img src={Logo} alt="" className="h-[30px]" />
       </div>
@@ -49,7 +49,7 @@ const Header = () => {
                 <div>
                   <h1 className="text-Darkblue">Jason Kean Tajor</h1>
                   <p className="text-xs font-light dark:text-dark-s">
-                    Inspiring to be a Webdeveloper
+                    Aspiring to be a Webdeveloper
                   </p>
                 </div>
               </motion.div>

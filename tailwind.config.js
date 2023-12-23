@@ -9,7 +9,7 @@ export default {
     extend: {
       fontFamily:{
         'secondary': ['Kalnia', 'sans-serif'],
-        'primary': ['Roboto', 'serif'],
+        'primary': ['Montserrat', 'sans-serif'],
         'Accent': ['Unbounded', 'sans-serif']
         
       },

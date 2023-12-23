@@ -11,7 +11,7 @@ const TestimonialCard = ({ person }) => {
     <div
       data-aos="fade-up"
       duration="500"
-      className="flex flex-col justify-between gap-3 p-5 border border-gray-200 rounded-lg text-light-p dark:text-dark-p dark:border-slate-800 dark:bg-dark-cards"
+      className="flex flex-col justify-between gap-3 p-5 border border-gray-200 rounded-lg text-light-p dark:text-dark-p dark:border-slate-900 dark:bg-dark-cards"
     >
       <div className="flex items-center justify-start gap-2">
         <img src={person.image} alt="" className="h-[50px] rounded-full" />
@@ -39,8 +39,8 @@ const TestimonialCard = ({ person }) => {
 const TestimonialCards = () => {
   return (
     <div>
-      <div className="flex-col items-center justify-center hidden w-full gap-5 px-2 my-10 md:flex lg:flex-row xl:px-32">
-        <div className="grid grid-cols-1 gap-3 0 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 ">
+      <div className="flex-col items-center justify-center hidden w-full gap-5 my-10 md:flex lg:flex-row xl:px-32">
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 ">
           {Person.map((person, index) => (
             <div className="duration-500 hover:scale-105">
               <TestimonialCard key={index} person={person} />
@@ -48,7 +48,8 @@ const TestimonialCards = () => {
           ))}
         </div>
       </div>
-      <div className="px-2 my-10 md:hidden">
+
+      <div className="my-10 md:hidden">
         <Swiper
           effect={"coverflow"}
           grabCursor={true}
@@ -72,8 +73,7 @@ const TestimonialCards = () => {
           ))}
         </Swiper>
       </div>
-      <p className="text-xs text-center dark:text-teal font-Accent">Swipe To See More</p>
-      <div className="px-2 my-10 md:hidden">
+      <div className="my-10 md:hidden">
         <Swiper
           effect={"coverflow"}
           grabCursor={true}
@@ -97,7 +97,11 @@ const TestimonialCards = () => {
           ))}
         </Swiper>
       </div>
-      <p className="text-center font-Accent dark:text-teal text-DarkBlue">
+      <p className="text-xs text-center md:hidden dark:text-teal font-Accent">
+        Swipe To See More
+      </p>
+
+      <p className="mt-5 text-center font-Accent text-DarkBlue">
         "I express gratitude to them for consistently supporting me."
       </p>
     </div>

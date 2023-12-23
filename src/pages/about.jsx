@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import School from "../components/School";
+import MySkills from "../components/MySkills";
 
 const about = () => {
   return (
-    <div className='h-screen bg-background-light dark:bg-background-dark'>
-      <p  className='text-5xl text-white'>TEXT</p> 
-    </div>
-  ) 
-}
+    <>
+      <School />
+      <MySkills/>
+    </>
+  );
+};
 
-export default about
+export default about;

@@ -7,14 +7,12 @@ import CubeTools from "/CubeTools.png";
 
 const ToolsSection = () => {
   return (
-    <div className="flex flex-col px-2 pt-10 transition-all duration-300 ease-in-out xl:px-20 font-primary bg-background-light dark:bg-background-dark">
+    <div className="flex flex-col px-3.5  pt-10 transition-all duration-300 ease-in-out xl:px-20 font-primary bg-background-light dark:bg-background-dark">
       <div className="xl:px-32">
         <div
           className="flex flex-col mt-10 mb-5 lg:flex-row"
           data-aos="fade-zoom-in"
-          
-          data-aos-delay="500"
-         
+          data-aos-delay="100"
         >
           <div>
             <h1 className="my-5 text-4xl font-light lg:text-6xl text-light-p dark:text-dark-p">
