@@ -84,7 +84,7 @@
 }
 
 .animate-spin {
-  animation: spin 10s linear infinite;
+  animation: spin 5s linear infinite;
 }
 
 @keyframes spin {
