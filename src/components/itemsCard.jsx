@@ -7,7 +7,7 @@ const itemsCard = () => {
           key={index}
           data-aos="fade-up"
           data-aos-duration="1000"
-          className="flex border dark:border-none h-[200px] w-auto flex-col justify-between p-4 dark:bg-dark-cards"
+          className="flex border dark:border-none h-[200px]justify-evenly w-auto flex-col gap-4 p-4 dark:bg-dark-cards"
         >
           <img
             src={item.img}

@@ -3,8 +3,10 @@ import Carousel from "../components/Carousel";
 const Work = () => {
   return (
     <div className="py-10 pt-10 md:px-0 font-Accent text-light-p dark:text-dark-p bg-background-light dark:bg-background-dark">
-      <p className="px-3.5 text-xl font-thin md:pt-10 lg:px-20">Discover</p>
-      <h1 className="px-3.5 lg:px-20 text-3xl md:text-5xl font-light max-w-[900px] ">
+      <p data-aos="fade-down"
+                data-aos-duration="1000" className="px-3.5 text-xl font-thin md:pt-10 lg:px-20">Discover</p>
+      <h1 data-aos="fade-right"
+                data-aos-duration="1000" className="px-3.5 lg:px-20 text-3xl md:text-5xl font-light max-w-[900px] ">
         Projects <strong className="font-semibold text-teal">Showcasing</strong>{" "}
         a Collection of My{" "}
         <strong className="font-semibold text-blue">Achievements</strong>
@@ -15,6 +17,8 @@ const Work = () => {
           <div
             key={index}
             className="max-w-[500px] border p-5 dark:border-slate-800 flex flex-col gap-5 "
+            data-aos="fade-up"
+            data-aos-duration="1000"
           >
             <img src={project.img} alt="" className="contain" />
             <h1 className="text-xl text-blue">{project.PageName}</h1>
@@ -29,7 +33,8 @@ const Work = () => {
           </div>
         ))}
       </div>
-      <div className="flex flex-col justify-center gap-10 item ">
+      <div className="flex flex-col justify-center gap-10 item "data-aos="fade-up"
+                data-aos-duration="1000">
         
         <p className="font-primary text-center text-sm px-3.5 lg:px-20 ">
           Even though I'm still getting the hang of web UI design , I've worked

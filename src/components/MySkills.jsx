@@ -53,17 +53,16 @@ const MySkills = () => {
             key={index}
             data-aos="fade-right"
             data-aos-duration="1000"
-            className="items-center gap-16 p-4 overflow-hidden xl:gap-80 lg:flex"
+            className="items-start gap-16 overflow-hidden lg:p-10 lg:items-center xl:gap-80 lg:flex"
           >
-            <h1 className="my-10 text-5xl font-semibold font-Accent">
+            <h1 className="my-10 text-2xl font-semibold lg:text-5xl font-Accent">
               {Textitem.Head}
             </h1>
-            <p className="text-sm">{Textitem.smallText}</p>
+            <p className="pb-2 text-sm text-dark-s">{Textitem.smallText}</p>
             <p>{Textitem.paragraph}</p>
           </div>
         ))}
       </div>
-    
     </div>
   );
 };
