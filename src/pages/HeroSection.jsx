@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const HeroSection = () => {
   return (
     <div className="flex items-center justify-center h-screen pt-20 transition-all duration-300 ease-in-out font-primary bg-background-light dark:bg-background-dark">
-      <div className="flex w-full relative flex-col items-center justify-between h-[600px] md:h-[680px]">
+      <div className="flex w-full relative flex-col items-center justify-between h-[700px] md:h-[680px]">
         <div className="flex flex-col items-center justify-center gap-2 mt-16 text-center md:gap-8 text-light-p">
           <div className="absolute xl:w-[50rem]  top-14 px-3.5 xl:top-28">
             <img
@@ -49,7 +49,7 @@ const HeroSection = () => {
             Step Into The World Of Mine
           </p>
         </div>
-        <div className="flex flex-col items-center justify-center gap-2 text-center">
+        <div className="flex flex-col items-center justify-center gap-2 pb-56 text-center md:pb-10">
           <img
             data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
@@ -72,14 +72,14 @@ const HeroSection = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="1700"
             data-aos-offset="0"
-            className="box"
+            className="mb-10 box"
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
             <ResumeButton />
           </motion.div>
         </div>
-        <div className=" justify-between hidden lg:flex w-full px-3.5 lg:px-20 text-dark-p font-Accent text-sm">
+        <div className=" justify-between flex w-full  px-3.5 lg:px-20 text-dark-p font-Accent text-sm">
           {heroItems.map((item, index) => (
             <div key={index} className="">
               <p>{item}</p>
@@ -94,13 +94,6 @@ const HeroSection = () => {
     </div>
   );
 };
-const heroItems = [
-  "BELIEVE",
-  "PASSION",
-  "ACHIEVE",
-  "FAILURE",
-  "ACCEPTANCE",
-  "SUCCESS",
-];
+const heroItems = ["BELIEVE", "PASSION", "ACHIEVE", "SUCCESS"];
 
 export default HeroSection;
