@@ -5,7 +5,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import { FaDiscord, FaFacebook, FaTwitter } from "react-icons/fa";
-import { motion } from "framer-motion";
+import Carousel from "./Carousel";
 const TestimonialCard = ({ person }) => {
   return (
     <div
@@ -105,6 +105,7 @@ const TestimonialCards = () => {
         "I express gratitude to them for consistently supporting me."
       </p>
     </div>
+    
   );
 };
 

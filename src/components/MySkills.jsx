@@ -1,54 +1,46 @@
 import React from "react";
 import ItemsCard from "./itemsCard";
-import Header from "./header";
+import { motion } from "framer-motion";
 const MySkills = () => {
   const textItem = [
     {
-      Head: "Ipsum",
-      smallText: "Lorem",
+      Head: "Passion",
+      smallText: "1",
       paragraph:
-        "A Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscureprofessor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, ",
+        "I love what I do. It's more than a job—it's my passion. This enthusiasm pushes me to always learn and do better. It turns challenges into chances for success. In every project, my passion keeps me dedicated and focused on making a real impact.",
     },
     {
-      Head: "Ipsum",
-      smallText: "Lorem",
+      Head: "Dedicated",
+      smallText: "2",
       paragraph:
-        "A Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscureprofessor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, ",
+        "Dedication is the backbone of who I am. It's my commitment to putting in the effort, staying focused, and giving my best in everything I undertake. This steadfast approach is more than just a quality—it's a principle that shapes my work ethic and drives me towards achieving meaningful results.",
     },
     {
-      Head: "Ipsum",
-      smallText: "Lorem",
+      Head: "Continuous Learning",
+      smallText: "3",
       paragraph:
-        "A Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscureprofessor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, ",
+        "I thrive on continuous learning—it's my ongoing journey of curiosity and growth. Embracing new knowledge, skills, and perspectives is not just a habit but a fundamental part of my professional identity. It keeps me adaptable, inspired, and always ready to navigate the ever-evolving landscape of knowledge in my pursuit of excellence.",
     },
   ];
   return (
-    <div className="bg-background-light font-primary px-3.5 pt-10 lg:px-20 dark:bg-background-dark text-light-p dark:text-dark-p">
+    <div className="relative bg-background-light font-primary px-3.5 pt-10 lg:px-20 dark:bg-background-dark text-light-p dark:text-dark-p">
       <div className="flex flex-col max-w-6xl gap-3">
         <h1
           className="text-3xl md:text-7xl"
           data-aos="fade-up"
           data-aos-duration="500"
         >
-          Explore <strong className="text-teal">My Skills</strong> Unveiling a
-          tapestry of Expertise and{" "}
+          Discover <strong className="text-teal">My Skills</strong> I showcase a
+          canvas of expertise and
           <strong className="text-blue">Enthusiasm</strong>
         </h1>
-        <p
-          className="pt-10 xl:pl-10"
-          data-aos="fade-up"
-          data-aos-duration="500"
-        >
-          A Latin professor{" "}
+        <p className="pt-10 " data-aos="fade-up" data-aos-duration="500">
+          This is a collection of my experiences using it.{" "}
         </p>
-        <p
-          className="pb-10 xl:pl-10"
-          data-aos="fade-up"
-          data-aos-duration="500"
-        >
-          A Latin professor at Hampden-Sydney College in Virginia, looked up one
-          of the more obscureprofessor at Hampden-Sydney College in Virginia,
-          looked up one of the more obscure Latin words, consectetur,{" "}
+        <p className="pb-10 " data-aos="fade-up" data-aos-duration="500">
+          Even though I have experience using it, I am still seeking ways to
+          improve my skills and knowledge. I find that hands-on practice is more
+          effective than just reading and analyzing.{" "}
         </p>
       </div>
       <div className="xl:px-20">
@@ -60,7 +52,7 @@ const MySkills = () => {
           <div
             key={index}
             data-aos="fade-right"
-          data-aos-duration="1000"
+            data-aos-duration="1000"
             className="items-center gap-16 p-4 overflow-hidden xl:gap-80 lg:flex"
           >
             <h1 className="my-10 text-5xl font-semibold font-Accent">
@@ -71,6 +63,7 @@ const MySkills = () => {
           </div>
         ))}
       </div>
+    
     </div>
   );
 };

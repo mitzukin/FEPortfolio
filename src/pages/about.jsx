@@ -30,7 +30,7 @@ const about = () => {
             delay: 0.5,
             ease: [0, 0.71, 0.2, 1.01],
           }}
-          className="absolute md:left-56 dark:top-[300px] h-[100px] w-[100px] /AboutGradient/ inset-0 blur-[200px] md:blur-[100px] dark:md:blur-[50px] "
+          className="absolute md:left-56 dark:top-[300px] h-[300px] w-[300px] AboutGradient inset-0 blur-[200px] md:blur-[500px] dark:md:blur-[300px] "
         ></motion.div>
       <School />
       <MySkills/>

@@ -102,7 +102,7 @@ const Header = () => {
           <Theme />
           <Link
             to="/"
-            className="absolute hidden pl-5 text-xs border-gray-500 right-32 lg:flex"
+            className="absolute hidden pl-5 text-xs border-l border-gray-500 right-32 lg:flex"
           >
             Hire me!
           </Link>

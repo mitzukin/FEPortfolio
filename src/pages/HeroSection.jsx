@@ -4,11 +4,10 @@ import HeroText from "/WebsiteIcon.png";
 import Profile from "/KinProfile.png";
 import ShapesRandom from "../components/ShapesRandom";
 import { motion } from "framer-motion";
-
 const HeroSection = () => {
   return (
     <div className="flex items-center justify-center h-screen pt-20 transition-all duration-300 ease-in-out font-primary bg-background-light dark:bg-background-dark">
-      <div className="flex w-full relative flex-col items-center justify-between h-[600px] md:h-[750px]">
+      <div className="flex w-full relative flex-col items-center justify-between h-[600px] md:h-[680px]">
         <div className="flex flex-col items-center justify-center gap-2 mt-16 text-center md:gap-8 text-light-p">
           <div className="absolute xl:w-[50rem]  top-14 px-3.5 xl:top-28">
             <img
@@ -50,8 +49,7 @@ const HeroSection = () => {
             Step Into The World Of Mine
           </p>
         </div>
-
-        <div className="flex flex-col items-center justify-center gap-2 mb-5 text-center">
+        <div className="flex flex-col items-center justify-center gap-2 text-center">
           <img
             data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
@@ -81,26 +79,28 @@ const HeroSection = () => {
             <ResumeButton />
           </motion.div>
         </div>
-        <div className="flex -translate-y-5 flex-col items-start justify-between w-full gap-10 px-3.5 text-xs font-light font-Accent dark:text-dark-p lg:px-20 md:text-sm md:flex-row">
-          <p className="hidden md:flex">LEARN</p>
-          <div
-            data-aos="fade-zoom-in"
-            data-aos-easing="ease-in-back"
-            data-aos-delay="100"
-            data-aos-offset="0"
-            className="flex justify-between w-full md:w-auto md:gap-10"
-          >
-            <p>EXPLORE</p>
-            <p>BELIEVE</p>
-            <p>ACHIEVE</p>DDF
-          </div>
+        <div className=" justify-between hidden lg:flex w-full px-3.5 lg:px-20 text-dark-p font-Accent text-sm">
+          {heroItems.map((item, index) => (
+            <div key={index} className="">
+              <p>{item}</p>
+            </div>
+          ))}
         </div>
       </div>
+
       <div>
         <ShapesRandom />
       </div>
     </div>
   );
 };
+const heroItems = [
+  "BELIEVE",
+  "PASSION",
+  "ACHIEVE",
+  "FAILURE",
+  "ACCEPTANCE",
+  "SUCCESS",
+];
 
 export default HeroSection;

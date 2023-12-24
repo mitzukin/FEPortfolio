@@ -4,7 +4,7 @@ import AboutCard from "../components/aboutCards";
 const School = () => {
   return (
     <div className="flex flex-col py-10 text-light-p dark:text-dark-p lg:px-20 px-3.5 justify-center bg-background-light dark:bg-background-dark">
-      <div className="relative flex flex-col justify-between md:flex-row items">
+      <div className="relative flex flex-col justify-between gap-10 md:flex-row items">
         <div data-aos="fade-up" data-aos-duration="500">
           <p className="py-1 text-xs font-Accent lg:translate-x-4 tracking-[50px] text-light-p dark:text-dark-p ">
             PAGE
@@ -14,10 +14,7 @@ const School = () => {
           </p>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000">
-          <p className="text-xl ">
-            Contrary to popular belief, Lorem Ipsum is not simply random text. I
-          </p>
-          <p className="">Lorem Ipsum is not simply random text. I</p>
+          <p className="text-sm ">The page that will show about who i am</p>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center py-10 mt-10 lg:flex-row">
@@ -29,7 +26,6 @@ const School = () => {
                 location="80 Shaw Blvd"
                 date="July 2018 - March 2020"
                 school="Jose Rizal University (JRU)"
-                description="Lorem Ipsum is simply dummy text of the "
                 color="#5844D7"
                 fontColor="#FFFFFF"
               />
@@ -40,7 +36,6 @@ const School = () => {
                 location="Boni Ave, Mandaluyong, 1550 Metro Manila"
                 date="July 2021"
                 school="Highway Hills Integrated School"
-                description="Lorem Ipsum is simply dummy text of the "
                 color="#FFFFFF"
               />
             </div>
@@ -52,12 +47,11 @@ const School = () => {
                 location="Boni Ave, Mandaluyong, 1550 Metro Manila"
                 date="July 2021"
                 school="Rizal Technological University (RTU)"
-                description="Lorem Ipsum is simply dummy text of the "
                 color="#FFFFFF"
               />
             </div>
             <div data-aos="fade-up" data-aos-duration="1000">
-              <div className="w-full h-[250px] md:h-[350px] aboutpicture"></div>
+              <div className="w-full h-[250px] md:h-[350px] rounded-lg aboutpicture"></div>
             </div>
           </div>
         </div>
@@ -69,7 +63,7 @@ const School = () => {
                 data-aos="fade-up"
                 data-aos-duration="500"
               >
-                A Latin professor
+                Allow me to introduce myself
               </p>
             </div>
             <div>
@@ -89,45 +83,49 @@ const School = () => {
               </h1>
             </div>
             <div>
-              <p
-                className="mt-5 "
-                data-aos="fade-up"
-                data-aos-duration="1200"
-              >
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over 2000 years old. Richard McClintock,
+              <p className="mt-5 " data-aos="fade-up" data-aos-duration="1200">
+                Currently a 3rd year college student who aspire to be a
+                <strong className="px-2 text-blue">Website Developer</strong>{" "}
+                and a{" "}
+                <strong className="px-2 text-blue">UI/UX Designer.</strong>
               </p>
             </div>
             <div className="flex flex-col gap-2 mt-10 mb-10 font-light ">
               <div
                 data-aos="fade-up"
                 data-aos-duration="1500"
-                className="flex items-center justify-end gap-3 font-semibold duration-300 hover:translate-x-4"
+                className="flex items-center justify-start gap-3 font-semibold duration-300 hover:translate-x-4"
               >
                 <p className="text-lg ">01</p>
-                <div  className="w-12 border-b-2 border-light-s"></div>
-                <p>A Latin professor</p>
+                <div className="w-12 border-b-2 border-light-s"></div>
+                <p>Designer</p>
               </div>
-              <div                 data-aos="fade-up"
-                data-aos-duration="1700" className="flex items-center justify-end gap-3 font-semibold duration-300 hover:translate-x-4">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="1700"
+                className="flex items-center justify-start gap-3 font-semibold duration-300 hover:translate-x-4"
+              >
                 <p className="text-lg ">02</p>
                 <div className="w-12 border-b-2 border-light-s"></div>
-                <p>A Latin professor</p>
+                <p>Developer</p>
               </div>
-              <div                 data-aos="fade-up"
-                data-aos-duration="1900" className="flex items-center justify-end gap-3 font-semibold duration-300 hover:translate-x-4">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="1900"
+                className="flex items-center justify-start gap-3 font-semibold duration-300 hover:translate-x-4"
+              >
                 <p className="text-lg ">03</p>
                 <div className="w-12 border-b-2 border-light-s"></div>
-                <p>A Latin professor</p>
+                <p>Musician</p>
               </div>
             </div>
             <div>
-              <p                 data-aos="fade-up"
-                data-aos-duration="2100">
-                A Latin professor at Hampden-Sydney College in Virginia, looked
-                up one of the more obscure Latin words, consectetur, from a
-                Lorem Ipsum passage,
+              <p data-aos="fade-up" data-aos-duration="2100">
+                These skills are not just challenges for me – they're
+                exhilarating adventures. I find immense joy in pushing my
+                limits, embracing the difficulty, and emerging on the other side
+                with newfound expertise and satisfaction. It's in these
+                challenges that I discover the true thrill of what I do.{" "}
               </p>
             </div>
           </div>
