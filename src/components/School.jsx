@@ -14,7 +14,7 @@ const School = () => {
           </p>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000">
-          <p className="text-sm font-primary">The page will show who i am</p>
+          <p className="hidden text-sm md:flex font-primary">The page will show who i am</p>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center lg:flex-row">
@@ -93,7 +93,7 @@ const School = () => {
             <div className="flex flex-col gap-2 mt-10 mb-10 font-light ">
               <div
                 data-aos="fade-up"
-                data-aos-duration="1500"
+                data-aos-duration="900"
                 className="flex items-center justify-start gap-3 font-semibold duration-300 hover:translate-x-4"
               >
                 <p className="text-lg ">01</p>
@@ -120,7 +120,7 @@ const School = () => {
               </div>
             </div>
             <div>
-              <p data-aos="fade-up" data-aos-duration="500">
+              <p data-aos="fade-up" data-aos-duration="900">
                 These skills are not just challenges for me – they're
                 exhilarating adventures. I find immense joy in pushing my
                 limits, embracing the difficulty, and emerging on the other side
