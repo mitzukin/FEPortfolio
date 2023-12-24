@@ -22,8 +22,7 @@ const ToolsSection = () => {
               <strong className="text-blue font-Accent">Improvement</strong>{" "}
             </h1>
             <p className="font-normal text-light-p dark:text-dark-p">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.{" "}
+              This tool holds immense power for me as it enables self-exploration, aiding in skill and knowledge enhancement. Through hands-on experience, it has been pivotal in shaping my professional growth journey.
             </p>
           </div>
           <img
