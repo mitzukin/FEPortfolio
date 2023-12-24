@@ -7,7 +7,7 @@ const itemsCard = () => {
           key={index}
           data-aos="fade-up"
           data-aos-duration="1000"
-          className="flex border dark:border-none h-[200px]justify-evenly w-auto flex-col gap-4 p-4 dark:bg-dark-cards"
+          className="flex flex-col w-auto gap-4 p-4 border rounded-lg dark:border-none justify-evenly dark:bg-dark-cards"
         >
           <img
             src={item.img}
@@ -30,7 +30,7 @@ const Items = [
   },
   {
     img: "CanvaIcon.png",
-    name: "FIGMA",
+    name: "CANVA",
     description: "For my simple graphics like magazines and infographics",
   },
   {
@@ -40,12 +40,12 @@ const Items = [
   },
   {
     img: "CssIcon.png",
-    name: "FIGMA",
+    name: "CSS",
     description: "where i decide to make my website more attractive",
   },
   {
     img: "MaterialUi.png",
-    name: "Material Ui",
+    name: "MATERIAL UI",
     description:
       "This is for my library for more complex components that is new for me ",
   },

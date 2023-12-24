@@ -32,7 +32,7 @@ const MySkills = () => {
         >
           Discover <strong className="text-teal">My Skills</strong> I showcase a
           canvas of expertise and
-          <strong className="text-blue">Enthusiasm</strong>
+          <strong className="text-blue"> Enthusiasm</strong>
         </h1>
         <p className="pt-10 " data-aos="fade-up" data-aos-duration="500">
           This is a collection of my experiences using it.{" "}

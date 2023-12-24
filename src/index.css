@@ -57,7 +57,6 @@
 
 
 .gradient {
-  background: #9333ea;
   background: -webkit-linear-gradient(335deg, #9333ea 0%, #0ea5e9 100%);
   background: linear-gradient(335deg, #9333ea 0%, #0ea5e9 100%);
 
@@ -75,13 +74,9 @@
   background: -webkit-linear-gradient(90deg, hsla(254, 100%, 56%, 1) 0%, hsla(152, 100%, 83%, 1) 100%);
 
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#521EFF", endColorstr="#A8FFD7", GradientType=1);
+
 }
 
-.AboutGradient {
-  background: #adb4e2;
-  background: -webkit-linear-gradient(0deg, #adb4e2 0%, #a1e951 100%);
-  background: linear-gradient(0deg, #adb4e2 0%, #a1e951 100%);
-}
 
 .animate-spin {
   animation: spin 5s linear infinite;

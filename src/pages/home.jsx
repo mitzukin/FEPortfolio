@@ -33,7 +33,7 @@ const Home = () => {
             delay: 0.5,
             ease: [0, 0.71, 0.2, 1.01],
           }}
-          className="absolute dark:top-96 gradient inset-0 blur-[200px] md:blur-[600px] dark:md:blur-[300px] "
+          className="absolute dark:top-96 gradient from-[#9333ea] to-[#0ea5e9] inset-0 blur-[200px] md:blur-[600px] dark:md:blur-[300px] "
         ></motion.div>
         <motion.div variants={item}>
           <HeroSection />

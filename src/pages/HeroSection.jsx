@@ -79,7 +79,7 @@ const HeroSection = () => {
             <ResumeButton />
           </motion.div>
         </div>
-        <div className=" justify-between flex w-full  px-3.5 lg:px-20 text-dark-p font-Accent text-sm">
+        <div className=" justify-between flex w-full  px-3.5 lg:px-20 text-dark-p font-Accent text-xs">
           {heroItems.map((item, index) => (
             <div key={index} className="">
               <p>{item}</p>

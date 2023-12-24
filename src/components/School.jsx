@@ -55,7 +55,7 @@ const School = () => {
             </div>
           </div>
         </div>
-        <div className="px-5 mt-10 translate-x-0 text-light-p dark:text-dark-p xl:w-auto lg:w-1/2">
+        <div className="mt-16 translate-x-0 md:pl-5 text-light-p dark:text-dark-p xl:w-auto lg:w-1/2">
           <div className="flex lg:w-[480px] flex-col items-start font-primary">
             <div>
               <p
