@@ -24,7 +24,7 @@ const item = {
 const Home = () => {
   return (
     <>
-      <motion.div variants={container} initial="hidden" animate="show">
+      <motion.div variants={container} initial="hidden" animate="show" className="bg-black">
         <motion.div
           initial={{ opacity: 0, scale: 1 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -44,6 +44,7 @@ const Home = () => {
         <motion.div variants={item}>
           <Testimonial />
         </motion.div>
+   
       </motion.div>
     </>
   );

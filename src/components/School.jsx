@@ -40,6 +40,7 @@ const School = () => {
               />
             </div>
           </div>
+          
           <div className="flex flex-col gap-2 translate-y-5">
             <div data-aos="fade-down" data-aos-duration="1500">
               <AboutCard

@@ -92,12 +92,3 @@
   }
 }
 
-.progress-bar {
-  position: fixed;
-  top: 20%;
-  left: 0;
-  right: 0;
-  height: 10px;
-  background: white;
-  transform-origin: 0%;
-}
