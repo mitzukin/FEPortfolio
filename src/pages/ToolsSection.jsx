@@ -68,8 +68,10 @@ const ToolsSection = () => {
           <div
             data-aos="fade-down"
             data-aos-duration="500"
-            className="col-span-2 AiGpt rounded-lg bg-gradient-to-tr dark:from-dark-cards border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none   dark:to-light-p flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 min-w-[200px] h-[250px] "
-          ></div>
+            className="col-span-2 justify-center items-center  AiGpt rounded-lg bg-gradient-to-tr dark:from-dark-cards border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none   dark:to-light-p flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 min-w-[200px] h-[250px] "
+          >
+            <img src="Google3d.png" alt="" className="absolute h-[100px] w-auto" />
+          </div>
           <div
             data-aos="fade-down"
             data-aos-duration="500"

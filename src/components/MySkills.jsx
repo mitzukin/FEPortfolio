@@ -7,7 +7,7 @@ const MySkills = () => {
       Head: "Passion",
       smallText: "1",
       paragraph:
-        "I love what I do. It's more than a job—it's my passion. This enthusiasm pushes me to always learn and do better. It turns challenges into chances for success. In every project, my passion keeps me dedicated and focused on making a real impact.",
+        "I love what I do. It's more than a job it's my passion. This enthusiasm pushes me to always learn and do better. It turns challenges into chances for success. In every project, my passion keeps me dedicated and focused on making a real impact.",
     },
     {
       Head: "Dedicated",
@@ -53,13 +53,12 @@ const MySkills = () => {
             key={index}
             data-aos="fade-right"
             data-aos-duration="1000"
-            className="items-start gap-16 overflow-hidden lg:p-10 lg:items-center xl:gap-80 lg:flex"
+            className="items-start justify-between gap-10 overflow-hidden lg:p-10 lg:items-center lg:flex"
           >
-            <h1 className="my-10 text-2xl font-semibold lg:text-5xl font-Accent">
+            <h1 className="my-10 text-2xl font-semibold max-w-[500px] lg:text-5xl font-Accent">
               {Textitem.Head}
             </h1>
-            <p className="pb-2 text-sm text-dark-s">{Textitem.smallText}</p>
-            <p>{Textitem.paragraph}</p>
+            <p className="max-w-[800px] ">{Textitem.paragraph}</p>
           </div>
         ))}
       </div>

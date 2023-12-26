@@ -3,7 +3,6 @@ import HeroSection from "./HeroSection";
 import ToolsSection from "./ToolsSection";
 import Testimonial from "./Testimonial";
 import { motion } from "framer-motion";
-
 const container = {
   hidden: { opacity: 0 },
   show: {
@@ -24,7 +23,7 @@ const item = {
 const Home = () => {
   return (
     <>
-      <motion.div variants={container} initial="hidden" animate="show" className="bg-black">
+      <motion.div variants={container} initial="hidden" animate="show" >
         <motion.div
           initial={{ opacity: 0, scale: 1 }}
           animate={{ opacity: 1, scale: 1 }}

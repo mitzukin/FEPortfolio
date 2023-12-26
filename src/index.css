@@ -37,7 +37,7 @@
 
 .AiGpt {
   position: relative;
-  background-image: url('/ChatgptAi.png');
+  background-image: url('/Google.gif');
   /* Adjust the path as needed */
   background-position: center;
   background-repeat: no-repeat;
@@ -91,4 +91,15 @@
     transform: rotate(360deg);
   }
 }
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: var(--red);
+  transform-origin: 0%;
+}
+
 

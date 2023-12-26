@@ -41,7 +41,7 @@ const Items = [
   {
     img: "CssIcon.png",
     name: "CSS",
-    description: "where i decide to make my website more attractive",
+    description: "Where i decide to make my website more attractive",
   },
   {
     img: "MaterialUi.png",
@@ -61,9 +61,9 @@ const Items = [
     description: "This is the first framework that i have learn using it",
   },
   {
-    img: "ShadCn.png",
-    name: "SHADCN",
-    description: "Use it for my project in Codebility",
+    img: "FramerIcon.png",
+    name: "FRAMER MOTION",
+    description: "I use this when i'm developing this portfolio of mine",
   },
   {
     img: "Tailwindcss.png",
@@ -86,7 +86,7 @@ const Items = [
     img: "AnimateOnScroll.png",
     name: "ANIMATE ON SCROLL",
     description:
-      "this animate on scroll is the best animation for me as of now since i am new to Framer motion",
+      "This animate on scroll is the best animation for me as of now since i am new to Framer motion",
   },
   {
     img: "Python.png",
@@ -102,10 +102,11 @@ const Items = [
   },
   {
     img: "Firebase.png",
-    name: "FIGMA",
+    name: "FIREBASE",
     description:
       "Firebase is my second database that i use for our login Authentication and some basic databases",
   },
+  
 ];
 
 export default itemsCard;

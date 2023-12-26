@@ -49,7 +49,7 @@ const TestimonialCards = () => {
         </div>
       </div>
 
-      <div className="my-10 md:hidden">
+      <div className="mt-10 md:hidden">
         <Swiper
           effect={"coverflow"}
           grabCursor={true}
@@ -62,7 +62,7 @@ const TestimonialCards = () => {
             modifier: 1,
             slideShadows: true,
           }}
-          pagination={true}
+          pagination={false}
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
         >
@@ -73,7 +73,7 @@ const TestimonialCards = () => {
           ))}
         </Swiper>
       </div>
-      <div className="my-10 md:hidden">
+      <div className="my-5 md:hidden">
         <Swiper
           effect={"coverflow"}
           grabCursor={true}
@@ -86,7 +86,7 @@ const TestimonialCards = () => {
             modifier: 1,
             slideShadows: true,
           }}
-          pagination={true}
+          pagination={false}
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
         >

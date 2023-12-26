@@ -116,7 +116,7 @@ const Projects = [
   },
   {
     img: "Music.png",
-    PageName: "ENDRNK",
+    PageName: "MsC",
     Description:
       "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions, transforming the art of playlist creation into a purposeful and personalized experience.",
     link: "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",

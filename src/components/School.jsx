@@ -19,7 +19,7 @@ const School = () => {
       </div>
       <div className="flex flex-col items-center justify-center lg:flex-row">
         <div className="flex flex-row gap-2 lg:w-1/2 xl:w-auto">
-          <div className="flex flex-col gap-2 -translate-y-5">
+          <div className="flex flex-col items-center justify-center gap-2">
             <div data-aos="fade-right" data-aos-duration="800">
               <AboutCard
                 year="Senior High School"
@@ -30,15 +30,7 @@ const School = () => {
                 fontColor="#FFFFFF"
               />
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000">
-              <AboutCard
-                year="College"
-                location="Boni Ave, Mandaluyong, 1550 Metro Manila"
-                date="July 2021"
-                school="Highway Hills Integrated School"
-                color="#FFFFFF"
-              />
-            </div>
+           
           </div>
           
           <div className="flex flex-col gap-2 translate-y-5">
@@ -87,7 +79,7 @@ const School = () => {
               <p className="mt-5 " data-aos="fade-up" data-aos-duration="1200">
                 Currently a 3rd year college student who aspire to be a
                 <strong className="px-2 text-blue">Website Developer</strong>{" "}
-                and a{" "}
+                and a
                 <strong className="px-2 text-blue">UI/UX Designer.</strong>
               </p>
             </div>
