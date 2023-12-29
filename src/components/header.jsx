@@ -93,8 +93,11 @@ const Header = () => {
                 }}
                 className="py-5 border-b dark:border-slate-900"
               >
-                <Link to="/contact">Hire me!</Link>
+                <Link to="/contact " onClick={toggleMobileMenu}>
+                  Contact
+                </Link>
               </motion.li>
+            
             </motion.ul>
           )}
         </div>
@@ -104,7 +107,7 @@ const Header = () => {
             to="/contact"
             className="absolute hidden pl-5 text-xs border-l border-gray-500 right-32 lg:flex"
           >
-            Hire me!
+            Contact Me!
           </Link>
         </div>
       </div>

@@ -4,7 +4,7 @@ import VsIcon from "/VsIcon.png";
 import PhotoshopIcon from "/PhotoshopIcon.png";
 import SlackIcon from "/SlackIcon.png";
 import CubeTools from "/CubeTools.1.png";
-
+import Google from "/Google3d.png"
 const ToolsSection = () => {
   return (
     <div className="flex flex-col px-3.5  pt-10 transition-all duration-300 ease-in-out xl:px-20 font-primary bg-background-light dark:bg-background-dark">
@@ -70,7 +70,7 @@ const ToolsSection = () => {
             data-aos-duration="500"
             className="col-span-2 justify-center items-center  AiGpt rounded-lg bg-gradient-to-tr dark:from-dark-cards border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none   dark:to-light-p flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 min-w-[200px] h-[250px] "
           >
-            <img src="Google3d.png" alt="" className="absolute h-[100px] w-auto" />
+            <img src={Google} alt="" className="absolute  h-[100px] w-auto" />
           </div>
           <div
             data-aos="fade-down"

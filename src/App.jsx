@@ -1,4 +1,3 @@
-// App.js
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
@@ -7,41 +6,55 @@ import Work from "./pages/work";
 import Layout from "./layouts/Layout";
 import "./index.css";
 import Contact from "./pages/Contact";
+import ScrollToTop from "./Utils/ScrollToTop";
+
 const App = () => {
   return (
     <Router basename="/FEPortfolio">
       <Routes>
         <Route
-          path="/about"
+          path="about"
           element={
-            <Layout>
-              <About />
-            </Layout>
+            <>
+              <ScrollToTop />
+              <Layout>
+                <About />
+              </Layout>
+            </>
           }
         />
 
         <Route
-          path="/contact"
+          path="contact"
           element={
-            <Layout>
-              <Contact />
-            </Layout>
+            <>
+              <ScrollToTop />
+              <Layout>
+                <Contact />
+              </Layout>
+            </>
           }
         />
         <Route
-          path="/work"
+          path="work"
           element={
-            <Layout>
-              <Work />
-            </Layout>
+            <>
+              <ScrollToTop />
+              <Layout>
+                <Work />
+              </Layout>
+            </>
           }
         />
         <Route
           path="/"
           element={
-            <Layout>
-              <Home />
-            </Layout>
+            <>
+              <ScrollToTop />
+              <Layout>
+                <Home />
+              </Layout>
+            </>
           }
         />
       </Routes>

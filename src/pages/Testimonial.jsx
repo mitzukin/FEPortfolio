@@ -1,7 +1,9 @@
 import React from "react";
 import { RiSingleQuotesL } from "react-icons/ri";
 import Testimonialcards from "../components/Testimonialcards";
+
 const Testimonial = () => {
+  
   return (
     <div className="relative pt-56 transition-all duration-300 ease-in-out font-primary bg-background-light dark:bg-background-dark">
       <div className="flex flex-col gap-10 px-3.5 font-light xl:flex-row text-light-p dark:text-dark-p lg:px-20">

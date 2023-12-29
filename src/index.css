@@ -37,8 +37,7 @@
 
 .AiGpt {
   position: relative;
-  background-image: url('/Google.gif');
-  /* Adjust the path as needed */
+  background-image: url('/SampleGradient.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

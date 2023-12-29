@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col ">
           <div className="font-semibold text-light-p font-primary dark:text-light-s">
-          <Navbar />
+            <Navbar />
           </div>
           <p className="flex items-center justify-center gap-5 text-sm text-light-s">
             <MdCopyright />
@@ -31,17 +31,27 @@ const Footer = () => {
       </div>
       <div className="flex flex-col gap-3 text-light-s">
         <div className="flex justify-between text-xl">
-        <FaGithub/>
-        <FaDiscord />
-        <FaFacebook />
-        <FaTwitter />
-        <FaSlack />
-        <MdOutlineEmail />
+          <a href="https://github.com/mitzukin">
+            <FaGithub />
+          </a>
+
+          <a href="https://www.facebook.com/jason.tajor1/">
+            <FaFacebook />
+          </a>
+          <a href="https://twitter.com/kintajor">
+            <FaTwitter />
+          </a>
+          <a href="https://codebility.slack.com/team/U066BCE2V5L">
+            <FaSlack />
+          </a>
+          <a href="https://mail.google.com/mail/u/2/#inbox?compose=DmwnWtDkwghCrRHLGTwcwRdVGzvMVFqrlxJGnkSwLxXQDztkPqdpcbqrQDBfvMfGNkcNdQQkGPhq">
+            <MdOutlineEmail />
+          </a>
         </div>
         <div>
-        <p className="text-xs text-DarkBlue font-Accent">
-          Thank you for Visiting my Portfolio
-        </p>
+          <p className="text-xs text-DarkBlue font-Accent">
+            Thank you for Visiting my Portfolio
+          </p>
         </div>
       </div>
     </footer>

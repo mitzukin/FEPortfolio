@@ -30,7 +30,7 @@ const Home = () => {
             delay: 0.5,
             ease: [0, 0.71, 0.2, 1.01],
           }}
-          className="absolute gradient inset-20 blur-[100px] lg:h-[200px]  lg:w-[200px] rounded-full md:blur-[100px] dark:md:blur-[100px] "
+          className="absolute gradient inset-20 blur-[100px] h-[200px]  w-[200px] lg:h-[200px]  lg:w-[200px] rounded-full md:blur-[100px] dark:md:blur-[100px] "
         ></motion.div>
          <motion.div
           initial={{ opacity: 0, scale: 1 }}
@@ -40,9 +40,9 @@ const Home = () => {
             delay: 0.5,
             ease: [0, 0.71, 0.2, 1.01],
           }}
-          className="absolute right-0 top-96 gradient2 blur-[100px]  lg:h-[400px]  lg:w-[500px] rounded-full md:blur-[200px] dark:md:blur-[100px] "
+          className="absolute right-0 top-96 gradient2 blur-[100px] h-[200px]  w-[200px]  lg:h-[400px]  lg:w-[500px] rounded-full md:blur-[150px] dark:md:blur-[100px] "
         ></motion.div>
-        <div class="parent inset-0 absolute opacity-5  dark:opacity-30 ">
+        <div class="parent inset-0 absolute opacity-5  dark:opacity-40 ">
           <div class="magicpattern h-[100%] w-[100%] " />
         </div>
         <motion.div variants={item}>

@@ -113,7 +113,7 @@ const Person = [
   {
     image:
       "https://i.pinimg.com/564x/be/f3/62/bef36231be28b8c0bcd62d29bb7ca18f.jpg",
-    name: "John Doe",
+    name: "Kean",
     relation: "Classmate",
     testimonial:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -122,7 +122,7 @@ const Person = [
   {
     image:
       "https://i.pinimg.com/564x/26/94/b8/2694b8e0e61e19620317a5307f56a03b.jpg",
-    name: "John Doe",
+    name: "Tajor",
     relation: "Friend",
     testimonial:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -140,7 +140,7 @@ const Person = [
   {
     image:
       "https://i.pinimg.com/564x/30/81/4e/30814e8ca05ce2b2db002cd77cce013e.jpg",
-    name: "Rosalyn",
+    name: "keann",
     relation: "Teammate",
     testimonial:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
