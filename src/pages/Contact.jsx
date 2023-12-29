@@ -22,9 +22,10 @@ const Contact = () => {
   return (
     <div className="relative mx-auto lg:py-40 font-primary">
       <div class="ContactBackground absolute -z-10 h-auto inset-0 w-[100%]"></div>
+      <p className="text-2xl text-center font-Accent">Message Me!</p>
       <form
         onSubmit={handleSubmit}
-        className=" px-3.5 py-10 mx-auto md:max-w-md "
+        className="py-10 mx-auto md:max-w-md px-3.5 "
       >
         <div className="mb-4">
           <label
@@ -115,22 +116,41 @@ const Contact = () => {
 
 function App() {
   return (
-    <div className=" relative font-Accent px-3.5  bg-background-light text-light-p dark:text-dark-p dark:bg-background-dark">
-      <div className="flex flex-col items-center h-screen gap-10 lg:px-20 justify-evenly lg:flex-row">
-        <div className="z-10 w-full">
+    <div className="relative font-Accent bg-background-light text-light-p dark:text-dark-p dark:bg-background-dark">
+      <div className="flex flex-col-reverse items-center gap-10 lg:px-20 justify-evenly lg:flex-row">
+        <div className="z-10 w-full ">
+            
           <Contact />
         </div>
-        <div className="flex flex-col w-full">
-          <p className="text-5xl font-semibold lg:text-9xl">
-            <span className="text-teal">Get</span> in{" "}
-            <span className="text-DarkBlue">Touch</span>{" "}
-          </p>
-          <p className="font-primary">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled
-          </p>
+        <div className="flex flex-col justify-between items-start gap-10 w-full px-3.5 lg:h-screen">
+          <div className="flex flex-col items-start w-full h-full gap-10 mt-10 md:items-center lg:items-start lg:gap-0 lg:mt-0 justify-evenly ">
+            <div className="flex flex-row justify-between w-full"> 
+              <p className="text-sm font-primary">
+                Lorem Ipsum is simply dummy 
+              </p>
+              <p className="text-sm font-primary">
+                simply dummy 
+              </p>
+            </div>
+            <div>
+              <p className="text-5xl font-semibold lg:text-9xl">
+                <span className="text-teal">Get</span> in{" "}
+                <span className="text-DarkBlue">Touch</span>{" "}
+              </p>
+            </div>
+
+            <div>
+              <p className="text-2xl font-primary">
+                Lorem Ipsum
+              </p>
+              <p className="max-w-md text-sm font-primary ">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
