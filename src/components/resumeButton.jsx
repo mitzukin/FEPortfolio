@@ -26,7 +26,7 @@ const resumeButton = () => {
       className="flex flex-row items-center gap-2 px-5 py-2 text-sm font-semibold transition-all duration-500 rounded-full font-primary hover:dark:bg-blue dark:text-light-p bg-light-p dark:bg-dark-p text-dark-p "
     >
      
-      Resume
+      Download CV
     </button>
   );
 };

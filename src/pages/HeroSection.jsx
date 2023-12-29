@@ -44,7 +44,7 @@ const HeroSection = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="3900"
             data-aos-offset="0"
-            className="px-3.5 md:font-semibold text-1xl font-Accent md:text-6xl text-dark-p dark:text-dark-p"
+            className="px-3.5 md:font-semibold text-1xl font-Accent md:text-6xl text-light-p dark:text-dark-p"
           >
             Step Into The World Of Mine
           </p>
@@ -79,7 +79,7 @@ const HeroSection = () => {
             <ResumeButton />
           </motion.div>
         </div>
-        <div className=" justify-between flex w-full  px-3.5 lg:px-20 text-dark-p font-Accent text-xs">
+        <div className=" justify-between flex w-full  px-3.5 lg:px-20 text-light-p dark:text-dark-p font-Accent text-xs">
           {heroItems.map((item, index) => (
             <div key={index} className="">
               <p>{item}</p>

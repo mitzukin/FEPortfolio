@@ -33,7 +33,7 @@ const Navbar = () => {
             <Link to="/about">About</Link>
           </motion.li>
           <motion.li variants={item}>
-            <Link to="/work">Work</Link>
+            <Link to="/work">Works</Link>
           </motion.li>
         </motion.ul>
       </nav>

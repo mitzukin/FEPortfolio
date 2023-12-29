@@ -6,11 +6,12 @@ const School = () => {
     <div className="flex flex-col py-10 text-light-p dark:text-dark-p lg:px-20 px-3.5 justify-center bg-background-light dark:bg-background-dark">
       <div className="relative flex flex-col justify-between gap-10 md:flex-row items">
         <div data-aos="fade-up" data-aos-duration="500">
-          <p className="py-1 text-xs font-Accent lg:translate-x-4 tracking-[50px] text-light-p dark:text-dark-p ">
-            PAGE
-          </p>
+         
           <p className="mb-10 text-4xl text-up md:text-7xl font-Accent text-DarkBlue ">
             ABOUT
+          </p>
+          <p className="py-1 text-xs font-Accent lg:translate-x-4 tracking-[50px] text-light-p dark:text-dark-p ">
+            PAGE
           </p>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000">

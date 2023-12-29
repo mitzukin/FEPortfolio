@@ -18,12 +18,10 @@ const item = {
   show: { opacity: 1 },
 };
 
-
-
 const Home = () => {
   return (
     <>
-      <motion.div variants={container} initial="hidden" animate="show" >
+      <motion.div variants={container} initial="hidden" animate="show">
         <motion.div
           initial={{ opacity: 0, scale: 1 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -32,8 +30,21 @@ const Home = () => {
             delay: 0.5,
             ease: [0, 0.71, 0.2, 1.01],
           }}
-          className="absolute dark:top-96 gradient from-[#9333ea] to-[#0ea5e9] inset-0 blur-[200px] md:blur-[600px] dark:md:blur-[300px] "
+          className="absolute gradient inset-20 blur-[100px] lg:h-[200px]  lg:w-[200px] rounded-full md:blur-[100px] dark:md:blur-[100px] "
         ></motion.div>
+         <motion.div
+          initial={{ opacity: 0, scale: 1 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.5,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+          className="absolute right-0 top-96 gradient2 blur-[100px]  lg:h-[400px]  lg:w-[500px] rounded-full md:blur-[200px] dark:md:blur-[100px] "
+        ></motion.div>
+        <div class="parent inset-0 absolute opacity-5  dark:opacity-30 ">
+          <div class="magicpattern h-[100%] w-[100%] " />
+        </div>
         <motion.div variants={item}>
           <HeroSection />
         </motion.div>
@@ -43,7 +54,6 @@ const Home = () => {
         <motion.div variants={item}>
           <Testimonial />
         </motion.div>
-   
       </motion.div>
     </>
   );

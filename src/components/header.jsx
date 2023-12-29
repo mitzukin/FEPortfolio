@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 z-10 flex items-center justify-between w-full px-3.5 py-5 transition-colors duration-500 ease-in-out border-b border-slate-300 dark:border-gray-900 md:flex lg:px-20 font-Accent bg-background-light dark:bg-background-dark">
+    <header className="sticky top-0 z-50 flex items-center justify-between w-full px-3.5 py-5 transition-colors duration-500 ease-in-out border-b border-slate-300 dark:border-gray-900 md:flex lg:px-20 font-Accent bg-background-light dark:bg-background-dark">
       <div className="flex items-center gap-2">
         <img src={Logo} alt="" className="h-[30px]" />
       </div>
@@ -83,7 +83,7 @@ const Header = () => {
                 className="py-5 border-b dark:border-slate-900"
               >
                 <Link to="/work " onClick={toggleMobileMenu}>
-                  Work
+                  Works
                 </Link>
               </motion.li>
               <motion.li
@@ -93,7 +93,7 @@ const Header = () => {
                 }}
                 className="py-5 border-b dark:border-slate-900"
               >
-                <Link to="/">Hire me!</Link>
+                <Link to="/contact">Hire me!</Link>
               </motion.li>
             </motion.ul>
           )}
@@ -101,7 +101,7 @@ const Header = () => {
         <div className="flex items-center justify-center gap-2 ">
           <Theme />
           <Link
-            to="/"
+            to="/contact"
             className="absolute hidden pl-5 text-xs border-l border-gray-500 right-32 lg:flex"
           >
             Hire me!

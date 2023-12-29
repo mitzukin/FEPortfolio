@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { CiLight } from "react-icons/ci";
 import { MdLightMode } from "react-icons/md";
 
@@ -22,9 +22,9 @@ const Theme = () => {
       onClick={toggleDarkMode}
     >
       {isDarkMode ? (
-        <MdLightMode className="text-gray-300 dark:text-gray-700" size={25}/>
+        <MdLightMode className="text-gray-300 dark:text-gray-700" size={25} />
       ) : (
-        <CiLight className="text-light-primary" size={25} />
+        <CiLight className="text-light-primary" size={25}></CiLight>
       )}
     </div>
   );
