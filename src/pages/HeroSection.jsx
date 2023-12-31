@@ -4,7 +4,12 @@ import HeroText from "/WebsiteIcon.png";
 import Profile from "/KinProfile.png";
 import ShapesRandom from "../components/ShapesRandom";
 import { motion } from "framer-motion";
+
+
 const HeroSection = () => {
+
+
+
   return (
     <div className="flex items-center justify-center h-screen pt-20 transition-all duration-300 ease-in-out font-primary bg-background-light dark:bg-background-dark">
       <div className="flex w-full relative flex-col items-center justify-between h-[700px] md:h-[680px]">

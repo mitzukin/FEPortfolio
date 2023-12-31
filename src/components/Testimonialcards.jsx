@@ -5,7 +5,6 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import { FaDiscord, FaFacebook, FaTwitter } from "react-icons/fa";
-import Carousel from "./Carousel";
 const TestimonialCard = ({ person }) => {
   return (
     <div
@@ -41,9 +40,9 @@ const TestimonialCards = () => {
     <div>
       <div className="flex-col items-center justify-center hidden w-full gap-5 my-10 md:flex lg:flex-row xl:px-32">
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 ">
-          {Person.map((person, index) => (
+          {Person.map((person, i) => (
             <div className="duration-500 hover:scale-105">
-              <TestimonialCard key={index} person={person} />
+              <TestimonialCard key={i} person={person} />
             </div>
           ))}
         </div>
@@ -66,8 +65,8 @@ const TestimonialCards = () => {
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
         >
-          {Person.slice(0, 3).map((person, index) => (
-            <SwiperSlide key={index}>
+          {Person.slice(0, 3).map((person, j) => (
+            <SwiperSlide key={j}>
               <TestimonialCard person={person} />
             </SwiperSlide>
           ))}
@@ -90,8 +89,8 @@ const TestimonialCards = () => {
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
         >
-          {Person.slice(3).map((person, index) => (
-            <SwiperSlide key={index}>
+          {Person.slice(3).map((person, k) => (
+            <SwiperSlide key={k}>
               <TestimonialCard person={person} />
             </SwiperSlide>
           ))}

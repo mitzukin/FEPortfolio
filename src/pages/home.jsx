@@ -42,8 +42,8 @@ const Home = () => {
           }}
           className="absolute right-0 top-96 gradient2 blur-[100px] h-[200px]  w-[200px]  lg:h-[400px]  lg:w-[500px] rounded-full md:blur-[150px] dark:md:blur-[100px] "
         ></motion.div>
-        <div class="parent inset-0 absolute opacity-5  dark:opacity-40 ">
-          <div class="magicpattern h-[100%] w-[100%] " />
+        <div className="absolute inset-0 parent opacity-5 dark:opacity-40 ">
+          <div className="magicpattern h-[100%] w-[100%] " />
         </div>
         <motion.div variants={item}>
           <HeroSection />
