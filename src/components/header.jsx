@@ -28,7 +28,7 @@ const Header = () => {
         <div className="flex items-center justify-center md:hidden">
           <button
             onClick={toggleMobileMenu}
-            className="text-light-p dark:text-dark-p focus:outline-none"
+            className="text-light-p dark:text-dark-p md:hidden focus:outline-none"
           >
             <HiOutlineMenuAlt3 size={20} />
           </button>
