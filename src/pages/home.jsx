@@ -20,7 +20,8 @@ const item = {
 
 const Home = () => {
   return (
-    <>
+    <> 
+    <div className="mx-auto max-w-7xl ">
       <motion.div variants={container} initial="hidden" animate="show">
         <motion.div
           initial={{ opacity: 0, scale: 1 }}
@@ -55,6 +56,7 @@ const Home = () => {
           <Testimonial />
         </motion.div>
       </motion.div>
+      </div>
     </>
   );
 };

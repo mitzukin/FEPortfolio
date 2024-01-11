@@ -5,15 +5,20 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import { FaDiscord, FaFacebook, FaTwitter } from "react-icons/fa";
+import RogerImage from "/Roger.jpg";
+import RosalynImage from "/Rosalyn.png";
+import EzekielImage from "/Ezekiel.jpg";
+import AdrianneImage from "/Adrianne.jpg";
+
 const TestimonialCard = ({ person }) => {
   return (
     <div
       data-aos="fade-up"
       duration="500"
-      className="flex flex-col justify-between gap-3 p-5 border border-gray-200 rounded-lg text-light-p dark:text-dark-p dark:border-slate-900 dark:bg-dark-cards"
+      className="flex flex-col min-h-[200px] justify-between gap-3 p-5 border border-gray-200 rounded-lg text-light-p dark:text-dark-p dark:border-slate-900 dark:bg-dark-cards"
     >
       <div className="flex items-center justify-start gap-2">
-        <img src={person.image} alt="" className="h-[50px] rounded-full" />
+        <img src={person.image} alt="" className="h-[40px]  rounded-full" />
         <div>
           <h1 className="text-sm font-dark font-Accent text-blue">
             {person.name}
@@ -21,16 +26,14 @@ const TestimonialCard = ({ person }) => {
           <p className="text-xs font-normal">{person.relation}</p>
         </div>
       </div>
-      <div className="flex items-center justify-start gap-2 text-sm text-dark-s ">
-        <FaDiscord />
+      <div className="flex items-center justify-start gap-2 text-sm text-light-s dark:text-dark-s ">
         <FaFacebook />
         <FaTwitter />
       </div>
       <div></div>
-      <p className="text-sm font-normal dark:font-light dark:text-dark-p text-light-p font-Roboto">
+      <p className="overflow-hidden text-sm font-normal dark:font-light dark:text-dark-s text-light-s font-Roboto">
         {person.testimonial}
       </p>
-      <p className="text-xs dark:font-light text-dark-s">{person.date}</p>
     </div>
   );
 };
@@ -104,54 +107,50 @@ const TestimonialCards = () => {
         "I express gratitude to them for consistently supporting me."
       </p>
     </div>
-    
   );
 };
 
 const Person = [
   {
     image:
-      "https://i.pinimg.com/564x/be/f3/62/bef36231be28b8c0bcd62d29bb7ca18f.jpg",
-    name: "Kean",
-    relation: "Classmate",
-    testimonial:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    date: "12/17/2023",
-  },
-  {
-    image:
-      "https://i.pinimg.com/564x/26/94/b8/2694b8e0e61e19620317a5307f56a03b.jpg",
-    name: "Tajor",
-    relation: "Friend",
-    testimonial:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    date: "12/17/2023",
-  },
-  {
-    image:
       "https://i.pinimg.com/564x/c3/18/f6/c318f6ba10a18a4227b30394d79ad93f.jpg",
-    name: "John Doe",
-    relation: "Friend",
+    name: "John Robert",
+    relation: "Office In Charge in Comfoods",
     testimonial:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "While overseeing operations at Factory Comfoods, working with with Jason has been remarkable. His strong work ethic and unwavering dedication truly set him apart.",
     date: "12/17/2023",
   },
   {
-    image:
-      "https://i.pinimg.com/564x/30/81/4e/30814e8ca05ce2b2db002cd77cce013e.jpg",
-    name: "keann",
-    relation: "Teammate",
+    image: RosalynImage,
+    name: "Rosalyn",
+    relation: "College Classmate",
     testimonial:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "Jason's had a talent for designs and many other things, characterized by an unwavering determination and creativity that consistently breathe life into each of your projects.",
     date: "12/17/2023",
   },
   {
-    image:
-      "https://i.pinimg.com/736x/d4/0d/83/d40d830c171b3715688753f1478922a6.jpg",
-    name: "Kin",
+    image: RogerImage,
+    name: "Roger ",
+    relation: "College Classmate",
+    testimonial:
+      "Working with my friend Jason has been an awesome experience! He's not just hardworking but also a design genius. His creativity and knack for web development always attracts my eye. If you need a talented and passionate designer, Jason is your go-to guy.",
+    date: "12/17/2023",
+  },
+
+  {
+    image: AdrianneImage,
+    name: "Adrianne",
+    relation: "Neighborhood Friend",
+    testimonial:
+      "Jason and I collaborated on a Front End project, and I'm thrilled to share his impactful contributions. His technical skills and teamwork greatly enhanced the project. Working with Jason was a pleasure due to his seamless cooperation and willingness to share information.",
+    date: "12/17/2023",
+  },
+  {
+    image: EzekielImage,
+    name: "Ezekiel",
     relation: "Teammate",
     testimonial:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "A front-end student who loves making user-friendly interfaces. Always ready to learn and contribute to cool projects. Excited to see their journey in design unfold",
     date: "12/17/2023",
   },
   {

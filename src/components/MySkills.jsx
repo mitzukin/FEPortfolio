@@ -23,7 +23,7 @@ const MySkills = () => {
     },
   ];
   return (
-    <div className="relative bg-background-light font-primary px-3.5 pt-10 lg:px-20 dark:bg-background-dark text-light-p dark:text-dark-p">
+    <div className="relative bg-background-light font-primary px-3.5 pt-10  dark:bg-background-dark text-light-p dark:text-dark-p">
       <div className="flex flex-col max-w-6xl gap-3">
         <h1
           className="text-3xl md:text-7xl"
@@ -35,7 +35,7 @@ const MySkills = () => {
           <strong className="text-blue"> Enthusiasm</strong>
         </h1>
         <p className="pt-10 " data-aos="fade-up" data-aos-duration="500">
-          This is a collection of my experiences using it.{" "}
+          These are the tools I use when creating websites.
         </p>
         <p className="pb-10 " data-aos="fade-up" data-aos-duration="500">
           Even though I have experience using it, I am still seeking ways to

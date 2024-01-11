@@ -11,7 +11,7 @@ const HeroSection = () => {
 
 
   return (
-    <div className="flex items-center justify-center h-screen pt-20 transition-all duration-300 ease-in-out font-primary bg-background-light dark:bg-background-dark">
+    <div className="flex items-center justify-center h-screen transition-all duration-300 ease-in-out font-primary bg-background-light dark:bg-background-dark">
       <div className="flex w-full relative flex-col items-center justify-between h-[700px] md:h-[680px]">
         <div className="flex flex-col items-center justify-center gap-2 mt-16 text-center md:gap-8 text-light-p">
           <div className="absolute xl:w-[50rem]  top-14 px-3.5 xl:top-28">

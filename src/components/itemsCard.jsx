@@ -1,7 +1,7 @@
 import React from "react";
 const itemsCard = () => {
   return (
-    <div className="grid grid-cols-2 gap-2 py-10 mx-auto xl:px-10 place-content-center md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+    <div className="grid grid-cols-2 gap-2 py-10 mx-auto place-content-center md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
       {Items.map((item, index) => (
         <div
           key={index}
@@ -15,7 +15,7 @@ const itemsCard = () => {
             className="w-[25px] md:w-[40px] h-auto"
           />
           <h3 className="font-semibold dark:text-dark-p">{item.name}</h3>
-          <p className="text-xs dark:text-dark-s">{item.description}</p>
+    
         </div>
       ))}
     </div>

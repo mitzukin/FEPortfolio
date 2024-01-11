@@ -3,7 +3,7 @@ import AboutCard from "../components/aboutCards";
 
 const School = () => {
   return (
-    <div className="flex flex-col py-10 text-light-p dark:text-dark-p lg:px-20 px-3.5 justify-center bg-background-light dark:bg-background-dark">
+    <div className="flex flex-col py-10 text-light-p dark:text-dark-p px-3.5 justify-center bg-background-light dark:bg-background-dark">
       <div className="relative flex flex-col justify-between gap-10 md:flex-row items">
         <div data-aos="fade-up" data-aos-duration="500">
          

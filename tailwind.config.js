@@ -23,7 +23,7 @@ export default {
         tealGrad: "#1F302E",
 
         "dark-p": "#FFFFFF",
-        "dark-s": "#94A3B8",
+        "dark-s": "#e9ecef",
 
         "dark-cards": "#111423",
         "light-cards": "#020617",

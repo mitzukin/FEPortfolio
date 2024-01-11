@@ -15,7 +15,8 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 flex items-center justify-between w-full px-3.5 py-5 transition-colors duration-500 ease-in-out border-b border-slate-300 dark:border-gray-900 md:flex lg:px-20 font-Accent bg-background-light dark:bg-background-dark">
-      <div className="flex items-center gap-2">
+     <div className="flex justify-between w-full mx-auto max-w-7xl">
+      <div className="flex items-center gap-2 ">
         <Link to="/">
         <img src={Logo} alt="" className="h-[30px]" /></Link>
       </div>
@@ -106,11 +107,12 @@ const Header = () => {
           <Theme />
           <Link
             to="/contact"
-            className="absolute hidden pl-5 text-xs border-l border-gray-500 right-32 lg:flex"
+            className="hidden pl-5 text-xs border-l border-gray-500 lg:flex"
           >
             Contact Me!
           </Link>
         </div>
+      </div>
       </div>
     </header>
   );

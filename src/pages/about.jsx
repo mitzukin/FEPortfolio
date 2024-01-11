@@ -21,7 +21,7 @@ const item = {
 const about = () => {
   return (
     <>  
-    <div className="py-10 bg-background-light dark:bg-background-dark">
+    <div className="py-10 mx-auto max-w-7xl bg-background-light dark:bg-background-dark">
     <motion.div
           initial={{ opacity: 0, scale: 1 }}
           animate={{ opacity: 1, scale: 1 }}
