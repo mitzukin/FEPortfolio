@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 flex items-center justify-between w-full px-3.5 py-5 transition-colors duration-500 ease-in-out border-b border-slate-300 dark:border-gray-900 md:flex lg:px-20 font-Accent bg-background-light dark:bg-background-dark">
-     <div className="flex justify-between w-full mx-auto max-w-7xl">
+     <div className="flex justify-between w-full mx-auto max-w-screen-2xl">
       <div className="flex items-center gap-2 ">
         <Link to="/">
         <img src={Logo} alt="" className="h-[30px]" /></Link>

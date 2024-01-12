@@ -53,7 +53,7 @@ const MySkills = () => {
             key={index}
             data-aos="fade-right"
             data-aos-duration="1000"
-            className="items-start justify-between gap-10 overflow-hidden lg:p-10 lg:items-center lg:flex"
+            className="items-start justify-between gap-10 overflow-hidden lg:items-center lg:flex"
           >
             <h1 className="my-10 text-2xl font-semibold max-w-[500px] lg:text-5xl font-Accent">
               {Textitem.Head}

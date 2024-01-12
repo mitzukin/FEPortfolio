@@ -15,7 +15,7 @@ import {
 const Footer = () => {
   return (
     <footer className="  px-3.5 py-5 transition-colors duration-500 ease-in-out border-t border-slate-300 dark:border-gray-900 md:flex-row md:flex lg:px-20 bg-background-light dark:bg-background-dark font-primary">
-      <div className="flex flex-col items-center justify-between w-full gap-3 mx-auto max-w-7xl md:flex-row">
+      <div className="flex flex-col items-center justify-between w-full gap-3 mx-auto max-w-screen-2xl md:flex-row">
         <div className="flex items-center justify-center gap-5">
           <div>
             <img src={Logo} alt="" className="max-h-[45px] max-w-[45px]" />

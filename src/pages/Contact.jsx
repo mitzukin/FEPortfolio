@@ -45,7 +45,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="relative mx-auto lg:py-40 font-primary">
+    <div className="relative max-w-lg mx-auto lg:py-40 font-primary">
       <div className="ContactBackground absolute -z-10 h-auto inset-0 w-[100%]"></div>
       <p className="text-2xl text-center font-Accent">Message Me!</p>
       {!isFormSubmitted ? (
@@ -153,8 +153,8 @@ const Contact = () => {
 
 function App() {
   return (
-    <div className="relative font-Accent bg-background-light text-light-p dark:text-dark-p dark:bg-background-dark">
-      <div className="flex flex-col-reverse items-center gap-10 lg:px-20 justify-evenly lg:flex-row">
+    <div className="relative mx-auto max-w-screen-2xl font-Accent bg-background-light text-light-p dark:text-dark-p dark:bg-background-dark">
+      <div className="flex flex-col-reverse items-center gap-10 justify-evenly lg:flex-row">
         <div
           className="z-10 w-full "
           data-aos="fade-right"

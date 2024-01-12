@@ -35,23 +35,23 @@ const Work = () => {
   //           </div>
   //         ))}
   //       </div>
-  //       <div className="flex flex-col justify-center gap-10 item "data-aos="fade-up"
-  //                 data-aos-duration="1000">
+  // <div className="flex flex-col justify-center gap-10 item "data-aos="fade-up"
+  //           data-aos-duration="1000">
 
-  //         <p className="font-primary text-center text-sm px-3.5 lg:px-20 ">
-  //           Even though I'm still getting the hang of web UI design , I've worked
-  //           on a few projects. Just a heads up, some use existing brand designs,
-  //           and I've made sure to give credit where it's due. Not all my stuff is
-  //           here since I'm sticking to GitHub Pages for now for the web, but I'm
-  //           happy to show you more if you're interested. They might not be super
-  //           fancy, but each project is a step in my learning journey.
-  //         </p>
-  //         <p className="font-primary font-semibold px-3.5 text-center  lg:px-[300px] ">
-  //           Thank you for taking the time to explore each project! Your interest
-  //           means a lot, and I'm thrilled to share the creative journey with you.
-  //           Stay tuned for more exciting designs and projects in the future!{" "}
-  //         </p>
-  //       </div>
+  //   <p className="font-primary text-center text-sm px-3.5 lg:px-20 ">
+  //     Even though I'm still getting the hang of web UI design , I've worked
+  //     on a few projects. Just a heads up, some use existing brand designs,
+  //     and I've made sure to give credit where it's due. Not all my stuff is
+  //     here since I'm sticking to GitHub Pages for now for the web, but I'm
+  //     happy to show you more if you're interested. They might not be super
+  //     fancy, but each project is a step in my learning journey.
+  //   </p>
+  //   <p className="font-primary font-semibold px-3.5 text-center  lg:px-[300px] ">
+  //     Thank you for taking the time to explore each project! Your interest
+  //     means a lot, and I'm thrilled to share the creative journey with you.
+  //     Stay tuned for more exciting designs and projects in the future!{" "}
+  //   </p>
+  // </div>
   //       <div className="relative py-20 ">
   //         <Carousel items={imageItems} />
   //       </div>
@@ -126,30 +126,47 @@ const Work = () => {
   // ];
   const [searchTerm, setSearchTerm] = useState("");
 
+  const [sortedData, setSortedData] = useState([...data]);
+
+  const sortAscending = () => {
+    const sortAsec = [...sortedData].sort((a, b) =>
+      a.PageName > b.PageName ? 1 : -1
+    );
+    setSortedData(sortAsec);
+  };
+
+  const sortDescending = () => {
+    const sortDes = [...sortedData].sort((a, b) =>
+      a.PageName > b.PageName ? -1 : 1
+    );
+    setSortedData(sortDes);
+  };
+
   return (
     <>
       <div className="min-h-screen px-3.5 py-10 font-primary bg-background-light dark:bg-background-dark text-light-p dark:text-dark-p">
-        <div className="mx-auto templateContainer max-w-7xl">
-          <div className="flex flex-col items-center gap-5 shadow-xl lg:p-8 md:bg-blue md:bg-opacity-10 rounded-xl lg:flex-row">
+        <div className="mx-auto max-w-screen-2xl templateContainer">
+          <div className="flex flex-col items-center gap-5 shadow-md lg:p-8 p-3.5 bg-blue md:bg-opacity-10 rounded-xl lg:flex-row">
             <div className="flex max-w-full lg:max-w-lg xl:max-w-2xl rounded-xl">
               <ProjectCarousel className="" />
             </div>
-            <div className="text-dark-p">
+            <div className="dark:text-dark-p text-light-p">
               <h1 className="text-2xl font-semibold lg:text-5xl font-Accent">
-                My <span className="text-DarkBlue">Projects</span> <br /> and <span className="text-teal">Designs</span>
+                My <span className="text-DarkBlue">Projects</span> <br /> and{" "}
+                <span className="text-teal">Designs</span>
               </h1>
               <p className="mt-3">
                 Explore my world of Figma designs, where creativity knows no
                 bounds. Each project is a unique blend of imagination and
                 precision, showcasing a commitment to transforming ideas into
                 visually stunning realities.
-
-                
               </p>
             </div>
           </div>
-
-          <div className="flex items-center mt-10">
+          <div className="relative py-20 rotate-2 ">
+            <Carousel items={imageItems} />
+          </div>
+          <div className="flex flex-col gap-2 mt-10 md:items-center md:flex-row">
             <div className="flex space-x-1">
               <input
                 type="text"
@@ -177,9 +194,32 @@ const Work = () => {
                 </svg>
               </button>
             </div>
+
+            <div className="rounded-full">
+              <select
+                className="px-5 py-2 font-light rounded-full text-light-p font-Accent"
+                onChange={(e) =>
+                  e.target.value === "asc" ? sortAscending() : sortDescending()
+                }
+              >
+                <option selected className="">
+                  Sort
+                </option>
+                <option value="asc" className="">
+                  A-Z
+                </option>
+                <option value="desc" className="">
+                  Z-A
+                </option>
+              </select>
+            </div>
           </div>
+          <p className="my-5 text-lg">
+            A Gallery of Figma designs that I would like to bring to life by
+            coding them.
+          </p>
           <div className="grid grid-cols-1 gap-5 mt-10 md:grid-cols-2 lg:grid-cols-3">
-            {data
+            {sortedData
               .filter((val) => {
                 if (searchTerm === "") {
                   return val;
@@ -188,26 +228,61 @@ const Work = () => {
                 ) {
                   return val;
                 }
-                return null; // Add this line to handle the case when neither condition is met
+                return null;
               })
-              .map((val) => {
-                return (
-                  <div className="flex flex-col gap-2" key={val.id}>
-                    <img src={val.img} alt="" className="rounded-xl " />
-                    <h3 className="text-lg font-semibold font-Accent">
-                      {val.PageName}
-                    </h3>
-                    <p className="text-sm dark:text-dark-s">
-                      {val.Description}
-                    </p>
-                  </div>
-                );
-              })}
+              .map((val) => (
+                <div
+                  className="flex flex-col justify-between gap-2 p-3.5 border rounded-lg shadow-md dark:border-slate-900"
+                  key={val.id}
+                >
+                  <img src={val.img} alt="" className="rounded-xl " />
+                  <h3 className="text-lg font-semibold font-Accent">
+                    {val.PageName}
+                  </h3>
+                  <p className="text-sm dark:text-dark-s">{val.Description}</p>
+                  <a
+                    href={val.link}
+                    className="px-4 py-2 text-sm text-center rounded-full text-dark-p max-w-32 bg-DarkBlue"
+                  >
+                    View Design
+                  </a>
+                  <div></div>
+                </div>
+              ))}
+          </div>
+          <div
+            className="flex flex-col justify-start gap-10 mt-10 item "
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <p className="text-sm font-primary text-start ">
+              Even though I'm still getting the hang of web UI design , I've
+              worked on a few projects. Just a heads up, some use existing brand
+              designs, and I've made sure to give credit where it's due. Not all
+              my stuff is here since I'm sticking to GitHub Pages for now for
+              the web, but I'm happy to show you more if you're interested. They
+              might not be super fancy, but each project is a step in my
+              learning journey.
+            </p>
+            <p className="font-semibold font-primary text-start ">
+              Thank you for taking the time to explore each project! Your
+              interest means a lot, and I'm thrilled to share the creative
+              journey with you. Stay tuned for more exciting designs and
+              projects in the future!{" "}
+            </p>
           </div>
         </div>
       </div>
     </>
   );
 };
+
+const imageItems = [
+  { img: "workLogo.png" },
+  { img: "workLogo1.png" },
+  { img: "workLogo2.png" },
+  { img: "workLogo3.png" },
+  { img: "workLogo4.png" },
+];
 
 export default Work;

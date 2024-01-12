@@ -21,7 +21,7 @@ const item = {
 const Home = () => {
   return (
     <> 
-    <div className="mx-auto max-w-7xl ">
+    <div className="mx-auto max-w-screen-2xl ">
       <motion.div variants={container} initial="hidden" animate="show">
         <motion.div
           initial={{ opacity: 0, scale: 1 }}
