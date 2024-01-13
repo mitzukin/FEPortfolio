@@ -1,11 +1,10 @@
 import React from "react";
 import FigmaIcon from "/FigmaIcon.png";
 import VsIcon from "/VsIcon.png";
-import PhotoshopIcon from "/PhotoshopIcon.png";
-import SlackIcon from "/SlackIcon.png";
-import CubeTools from "/CubeTools.1.png";
+import W3School from "/W3School.png";
 import Google from "/Google3d.png";
 import CanvaIcon from "/CanvaIcon.png";
+import StackOverFlow from "/StackOverflow.png";
 const ToolsSection = () => {
   return (
     <div className="flex flex-col px-3.5  pt-10 transition-all duration-300 ease-in-out font-primary bg-background-light dark:bg-background-dark">
@@ -30,12 +29,17 @@ const ToolsSection = () => {
             </p>
           </div>
         </div>
-        <div className="hidden md:flex">
+        <div className=" md:flex">
           <div className="grid gap-2 text-light-p dark:text-dark-p lg:grid-cols-8 lg:grid-rows-4 sm:flex-col">
+            <div
+              data-aos="fade-down"
+              data-aos-duration="500"
+              className="col-span-1 justify-center items-center StackOver rounded-lg bg-gradient-to-tr dark:from-dark-cards border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none   dark:to-light-p flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 min-w-[200px] h-[250px] "
+            ></div>
             <div
               data-aos="fade-right"
               data-aos-duration="500"
-              className="col-span-2 rounded-lg bg-gradient-to-tr dark:from-dark-cards  border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none  dark:to-light-p  flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 h-[250px] "
+              className="col-span-1 rounded-lg bg-gradient-to-tr dark:from-dark-cards  border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none  dark:to-light-p  flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 h-[250px] "
             >
               <div className="flex flex-col items-start justify-center gap-2 p-3 text-xs md:text-sm xl:p-4 md:flex-col">
                 <img
@@ -51,66 +55,49 @@ const ToolsSection = () => {
                 </div>
               </div>
             </div>
+
             <div
               data-aos="fade-down"
               data-aos-duration="500"
-              className="col-span-2 rounded-lg bg-gradient-to-tr dark:from-dark-cards border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none  dark:to-light-p flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 h-[250px] "
-            >
-              <div className="flex flex-col items-start justify-center gap-2 p-3 text-xs md:text-sm xl:p-4 md:flex-col">
-                <img
-                  src={[CardItems[1].img]}
-                  alt=""
-                  className="pb-5 h-[60px]"
-                />
-                <div className="flex flex-col gap-2">
-                  <p className="text-xl lg:px-3">{CardItems[1].title}</p>
-                  <p className="font-normal lg:px-3">
-                    {CardItems[1].description}
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              data-aos="fade-down"
-              data-aos-duration="500"
-              className="col-span-2 justify-center items-center  AiGpt rounded-lg bg-gradient-to-tr dark:from-dark-cards border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none   dark:to-light-p flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 min-w-[200px] h-[250px] "
+              className="col-span-1 justify-center items-center  AiGpt rounded-lg bg-gradient-to-tr dark:from-dark-cards border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none   dark:to-light-p flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 min-w-[200px] h-[250px] "
             >
               <img src={Google} alt="" className="absolute  h-[100px] w-auto" />
             </div>
             <div
               data-aos="fade-down"
               data-aos-duration="500"
-              className="col-span-2 rounded-lg bg-gradient-to-tr dark:from-dark-cards border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none  dark:to-light-p  flex p-2 xl:px-1 row-span-2  md:col-span-2 md:row-span-4 h-[250px] md:h-auto "
+              className="col-span-1 rounded-lg bg-gradient-to-tr dark:from-dark-cards border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none  dark:to-light-p  flex p-2 xl:px-1 row-span-2  md:col-span-2 md:row-span-4 h-[250px] md:h-auto "
+            >
+              <div className="flex flex-col items-start justify-center gap-2 p-3 text-xs md:text-sm xl:p-4 md:flex-col">
+                <img
+                  src={[CardItems[2].img]}
+                  alt=""
+                  className="pb-5 h-[60px] md:h-auto"
+                />
+                <div className="flex flex-col gap-2">
+                  <p className="text-xl lg:px-2">{CardItems[2].title}</p>
+                  <p className="font-normal lg:px-2">
+                    {CardItems[2].description}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              data-aos="fade-right"
+              data-aos-duration="500"
+              className="col-span-1  rounded-lg  bg-gradient-to-tr dark:from-dark-cards  border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none  dark:to-light-p   flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 h-[250px] "
             >
               <div className="flex flex-col items-start justify-center gap-2 p-3 text-xs md:text-sm xl:p-4 md:flex-col">
                 <img
                   src={[CardItems[3].img]}
                   alt=""
-                  className="pb-5 h-[60px] md:h-auto"
+                  className="pb-5 h-[60px] rounded-full "
                 />
                 <div className="flex flex-col gap-2">
-                  <p className="text-xl lg:px-2">{CardItems[3].title}</p>
-                  <p className="font-normal lg:px-2">
-                    {CardItems[3].description}
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              data-aos="fade-right"
-              data-aos-duration="500"
-              className="col-span-2  rounded-lg  bg-gradient-to-tr dark:from-dark-cards  border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none  dark:to-light-p   flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 h-[250px] "
-            >
-              <div className="flex flex-col items-start justify-center gap-2 p-3 text-xs md:text-sm xl:p-4 md:flex-col">
-                <img
-                  src={[CardItems[4].img]}
-                  alt=""
-                  className="pb-5 h-[60px] "
-                />
-                <div className="flex flex-col gap-2">
-                  <p className="text-xl lg:px-3">{CardItems[4].title}</p>
+                  <p className="text-xl lg:px-3">{CardItems[3].title}</p>
                   <p className="font-normal lg:px-3">
-                    {CardItems[4].description}
+                    {CardItems[3].description}
                   </p>
                 </div>
               </div>
@@ -119,13 +106,13 @@ const ToolsSection = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="500"
-              className="col-span-2 Div-6 rounded-lg bg-gradient-to-tr dark:from-DarkBlue from-green to-teal  dark:to-light-s flex p-2 xl:px-1  text-xs md:text-sm row-span-2 md:col-span-4 md:row-span-2 h-[250px] "
+              className="col-span-1 Div-6 rounded-lg bg-gradient-to-tr dark:from-DarkBlue from-green to-teal  dark:to-light-s flex p-2 xl:px-1  text-xs md:text-sm row-span-2 md:col-span-4 md:row-span-2 h-[250px] "
             ></div>
-            <div className="col-span-4  row-span-2  md:col-span-4 md:row-span-2 h-[0px]  bg-div6"></div>
+            <div className="col-span-1 row-span-2  md:col-span-4 md:row-span-2 h-[0px]  bg-div6"></div>
           </div>
         </div>
 
-        <div className="flex flex-col gap-2 md:hidden">
+        {/* <div className="flex flex-col gap-2 md:hidden">
           <div
             data-aos="fade-up"
             data-aos-duration="500"
@@ -146,11 +133,16 @@ const ToolsSection = () => {
           <div
             data-aos="fade-down"
             data-aos-duration="500"
+            className="col-span-2 justify-center items-center  StackOver rounded-lg bg-gradient-to-tr dark:from-dark-cards border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none   dark:to-light-p flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 min-w-[200px] h-[250px] "
+          ></div>
+          <div
+            data-aos="fade-down"
+            data-aos-duration="500"
             className="col-span-2 justify-center items-center  AiGpt rounded-lg bg-gradient-to-tr dark:from-dark-cards border border-gray-200 border-t-1 border-r-1 border-b-1 border-l-1 dark:border-none   dark:to-light-p flex p-2 xl:px-1 row-span-2 md:col-span-2 md:row-span-2 min-w-[200px] h-[250px] "
           >
             <img src={Google} alt="" className="absolute  h-[100px] w-auto" />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
@@ -163,11 +155,7 @@ const CardItems = [
     description:
       "In UI, this is where I design with Figma's collaborative features.",
   },
-  {
-    img: SlackIcon,
-    title: "Slack",
-    description: "Slack is where I get design and code tips from my team.",
-  },
+
   {
     img: CanvaIcon,
     title: "Canva",
@@ -179,11 +167,11 @@ const CardItems = [
     description: "This is where i compile my all codes into reality ",
   },
   {
-    img: PhotoshopIcon,
+    img: W3School,
     title: "Adobe Photoshop",
     description: "This is where i design and make Magazines or any graphics",
   },
-  
+
   // Add your remaining items here
 ];
 

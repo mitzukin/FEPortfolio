@@ -26,7 +26,6 @@
 
 .Kinprofile {
   filter: drop-shadow(2px 2px 20px rgba(0, 0, 0, 0.4));
-
 }
 
 .icon {
@@ -34,7 +33,7 @@
 }
 .Div-6 {
   position: relative;
-  background-image: url('/Github.png');
+  background-image: url('/GitBack.png');
   /* Adjust the path as needed */
   background-position: center;
   background-repeat: no-repeat;
@@ -44,6 +43,21 @@
 .AiGpt {
   position: relative;
   background-image: url('/SampleGradient.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.StackOver{
+  position: relative;
+  background-image: url('/StackOverflow.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.W3school{
+  position: relative;
+  background-image: url('/W3School.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

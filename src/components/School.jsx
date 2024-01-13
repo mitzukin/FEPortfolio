@@ -1,12 +1,12 @@
 import React from "react";
 import AboutCard from "../components/aboutCards";
-
+import ShapeBack from "/FluppyGreenny.jpg";
+import ME from "/ME.png"
 const School = () => {
   return (
     <div className="flex flex-col py-10 text-light-p dark:text-dark-p px-3.5 justify-center bg-background-light dark:bg-background-dark">
       <div className="relative flex flex-col justify-between gap-10 md:flex-row items">
         <div data-aos="fade-up" data-aos-duration="500">
-         
           <p className="mb-10 text-4xl text-up md:text-7xl font-Accent text-DarkBlue ">
             ABOUT
           </p>
@@ -15,12 +15,21 @@ const School = () => {
           </p>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000">
-          <p className="hidden text-sm md:flex font-primary">The page will show who i am</p>
+          <p className="hidden text-sm md:flex font-primary">
+            The page will show who i am
+          </p>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center lg:flex-row">
         <div className="flex flex-row gap-2 lg:w-1/2 xl:w-auto">
           <div className="flex flex-col items-center justify-center gap-2">
+            <div data-aos="fade-up" data-aos-duration="1000">
+              <img
+                src={ShapeBack}
+                alt=""
+                className="w-full max-h-[350px] rounded-lg"
+              />
+            </div>
             <div data-aos="fade-right" data-aos-duration="800">
               <AboutCard
                 year="Senior High School"
@@ -31,9 +40,8 @@ const School = () => {
                 fontColor="#FFFFFF"
               />
             </div>
-           
           </div>
-          
+
           <div className="flex flex-col gap-2 translate-y-5">
             <div data-aos="fade-down" data-aos-duration="1500">
               <AboutCard
@@ -45,7 +53,7 @@ const School = () => {
               />
             </div>
             <div data-aos="fade-up" data-aos-duration="1000">
-              <div className="w-full h-[250px] md:h-[350px] rounded-lg aboutpicture"></div>
+              <img src={ME}  alt="" className="w-full max-h-[350px] rounded-lg aboutpicture"/>
             </div>
           </div>
         </div>
@@ -80,8 +88,7 @@ const School = () => {
               <p className="mt-5 " data-aos="fade-up" data-aos-duration="1200">
                 Currently a 3rd year college student who aspire to be a
                 <strong className="px-2 text-blue">Website Developer</strong>{" "}
-                and a
-                <strong className="px-2 text-blue">UI/UX Designer.</strong>
+                and a<strong className="px-2 text-blue">UI/UX Designer.</strong>
               </p>
             </div>
             <div className="flex flex-col gap-2 mt-10 mb-10 font-light ">

@@ -1,7 +1,7 @@
 import React from "react";
 
 const AboutCard = (props) => {
-  const { location, date, school, description, color, fontColor, dark } = props;
+  const { location, date, school, description, color, year, fontColor, dark } = props;
 
   const cardStyle = {
     backgroundColor: dark ? "#111423" : color, // Dark theme background color is #333, change it to your preferred dark background color
@@ -24,6 +24,8 @@ const AboutCard = (props) => {
         <p className="hidden text-sm font-light md:flex font-primary">
           {description}
         </p>
+        <p className="text-sm font-semibold font-primary">{year}</p>
+
       </div>
     </div>
   );
