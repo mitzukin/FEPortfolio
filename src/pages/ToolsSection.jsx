@@ -168,8 +168,8 @@ const CardItems = [
   },
   {
     img: W3School,
-    title: "Adobe Photoshop",
-    description: "This is where i design and make Magazines or any graphics",
+    title: "W3School",
+    description: "This is where i study and learn codes syntax",
   },
 
   // Add your remaining items here
