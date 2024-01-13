@@ -146,7 +146,7 @@ const Work = () => {
     <>
       <div className="min-h-screen px-3.5 py-10 font-primary bg-background-light dark:bg-background-dark text-light-p dark:text-dark-p">
         <div className="mx-auto max-w-screen-2xl templateContainer">
-          <div className="flex flex-col items-center gap-5 shadow-md lg:p-8 p-3.5 bg-blue md:bg-opacity-10 rounded-xl lg:flex-row">
+          <div className="flex flex-col items-center gap-5 shadow-md lg:p-8 p-3.5 bg-blue bg-opacity-10 rounded-xl lg:flex-row">
             <div className="flex max-w-full lg:max-w-lg xl:max-w-2xl rounded-xl">
               <ProjectCarousel className="" />
             </div>
@@ -232,7 +232,7 @@ const Work = () => {
               })
               .map((val) => (
                 <div
-                  className="flex flex-col justify-between gap-2 p-3.5 border rounded-lg shadow-md dark:border-slate-900"
+                  className="flex flex-col justify-between gap-2 p-3.5 border rounded-2xl shadow-md dark:border-slate-900"
                   key={val.id}
                 >
                   <img src={val.img} alt="" className="rounded-xl " />
