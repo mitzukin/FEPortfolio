@@ -1,124 +1,122 @@
 [
-    {   "id": 1,
+    {
+        "id": 1,
         "img": "Project_1.png",
         "PageName": "EndDrnk",
         "Description": "EndDrnk redefines beverages, blending nature's flavors into a refreshing symphony. My minimalist design reflects purity, offering an elevated sensory journey. More than a drink, it's an innovation-driven celebration of transforming moments.",
         "link": "https://www.figma.com/proto/amYMv3V4fWldfF9wEB12ws/DRNK?type=design&node-id=1-10&t=Yt7Qk2Jmgaq5oaq5-0&scaling=min-zoom&page-id=0%3A1",
-        "label":""
+        "label": ""
     },
-    {   
+    {
         "id": 2,
         "img": "Burger.png",
         "PageName": "Burger",
-        "Description": "Burger is my culinary canvas, inspired to reimagine fast food. The fusion of burgers, chicken pasta, and Coke embodies my vision for diverse, satisfying menus. ",
-        "link": "https://www.figma.com/proto/UFEz1rarMGcE8532puLq5B/Untitled?type=design&node-id=42-1029&t=AkJNAMfgk0p65jeh-1&scaling=min-zoom&page-id=0%3A1&mode=design",
-        "label":""
+        "Description": "Burger is my culinary canvas, inspired to reimagine fast food. The fusion of burgers, chicken pasta, and Coke embodies my vision for diverse, satisfying menus.",
+        "link": "https://www.figma.com/proto/UFEz1rarMGcE8532puLq5B/Untitled?type=design&node-id=42-1029&t=AkJNAMfgk0p65jeh-1&scaling=min-zoom&page-id=0%3A1",
+        "label": ""
     },
-    {   
+    {
         "id": 3,
         "img": "iCus.png",
         "PageName": "ICus",
         "Description": "With precision and care, I aim to capture the essence of iPhone and Mac interfaces, infusing a touch of sophistication into every digital interaction.",
-        "link": "https://www.figma.com/proto/UFEz1rarMGcE8532puLq5B/Untitled?type=design&node-id=42-1220&t=k6HTHrcfzgN3x955-1&scaling=min-zoom&page-id=0%3A1&mode=design",
-        "label":""
+        "link": "https://www.figma.com/proto/UFEz1rarMGcE8532puLq5B/Untitled?type=design&node-id=42-1220&t=k6HTHrcfzgN3x955-1&scaling=min-zoom&page-id=0%3A1",
+        "label": ""
     },
-    {   
+    {
         "id": 4,
         "img": "TheTesla.png",
         "PageName": "The Tesla",
-        "Description": "I create UI designs inspired by Tesla's innovation. With simplicity and careful attention, each design reflects the ease and elegance seen in Tesla's cutting-edge technology. ",
-        "link": "https://www.figma.com/proto/UFEz1rarMGcE8532puLq5B/Untitled?type=design&node-id=76-25&t=DCmhBHf2hq0qXmfp-1&scaling=min-zoom&page-id=0%3A1&mode=design",
-        "label":""
+        "Description": "I create UI designs inspired by Tesla's innovation. With simplicity and careful attention, each design reflects the ease and elegance seen in Tesla's cutting-edge technology.",
+        "link": "https://www.figma.com/proto/UFEz1rarMGcE8532puLq5B/Untitled?type=design&node-id=76-25&t=DCmhBHf2hq0qXmfp-1&scaling=min-zoom&page-id=0%3A1",
+        "label": ""
     },
-    {   
+    {
         "id": 5,
         "img": "Codebility.png",
         "PageName": "Codebility",
-        "Description": "Led by our team lead, UI team to design a website in Figma. This platform is dedicated to individuals keen on learning and gaining hands-on experience. ",
-        "link": "https://www.figma.com/proto/5tqG6TS2dhTAlEjOuKcWLy/Untitled?type=design&node-id=39-2793&t=LTzouhes528qtRf3-1&scaling=min-zoom&page-id=0%3A1&mode=design",
-        "label":""
+        "Description": "Led by our team lead, UI team to design a website in Figma. This platform is dedicated to individuals keen on learning and gaining hands-on experience.",
+        "link": "https://www.figma.com/proto/5tqG6TS2dhTAlEjOuKcWLy/Untitled?type=design&node-id=39-2793&t=LTzouhes528qtRf3-1&scaling=min-zoom&page-id=0%3A1",
+        "label": ""
     },
-    {   
+    {
         "id": 6,
         "img": "Godz.png",
         "PageName": "Greek Style",
-        "Description": "GreekCrafted is a straightforward webpage where I've woven the essence of Greek inspiration into every detail. It's a digital page reflecting the simple elegance of Greek aesthetics. ",
-        "link": "https://www.figma.com/proto/3WLRcX4oC2tG7wrX4yt3gq/Untitled?type=design&node-id=16-298&t=KeNGYdnjpeSBzfps-1&scaling=contain&page-id=0%3A1&starting-point-node-id=16%3A331&mode=design",
-        "label":""
+        "Description": "GreekCrafted is a straightforward webpage where I've woven the essence of Greek inspiration into every detail. It's a digital page reflecting the simple elegance of Greek aesthetics.",
+        "link": "https://www.figma.com/proto/3WLRcX4oC2tG7wrX4yt3gq/Untitled?type=design&node-id=16-298&t=KeNGYdnjpeSBzfps-1&scaling=contain&page-id=0%3A1",
+        "label": ""
     },
-    {   
+    {
         "id": 7,
         "img": "ReasonStore.png",
         "PageName": "ReasonStore",
-        "Description": "ReasonStore is my design sanctuary for kicks with a story. Inspired by the belief that every pair should carry a reason and narrative. ",
-        "link": "https://www.figma.com/proto/U1h9uSv9ndPQOxYV95HlRU/Untitled?type=design&node-id=1-2&t=C09fo8hO2Rtgke6e-1&scaling=min-zoom&page-id=0%3A1&mode=design",
-        "label":""
+        "Description": "ReasonStore is my design sanctuary for kicks with a story. Inspired by the belief that every pair should carry a reason and narrative.",
+        "link": "https://www.figma.com/proto/U1h9uSv9ndPQOxYV95HlRU/Untitled?type=design&node-id=1-2&t=C09fo8hO2Rtgke6e-1&scaling=min-zoom&page-id=0%3A1",
+        "label": ""
     },
-    {   
+    {
         "id": 8,
         "img": "Music.png",
         "PageName": "MsC",
         "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
-        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
-        "label":""
+        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1",
+        "label": ""
     },
-    {   
+    {
         "id": 9,
         "img": "Bali.png",
-        "PageName": "MsC",
+        "PageName": "Highland Bali",
         "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
-        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
-        "label":""
+        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1",
+        "label": ""
     },
-    {   
+    {
         "id": 10,
         "img": "Coffee.png",
-        "PageName": "MsC",
+        "PageName": "Palpitate Coffee",
         "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
-        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
-        "label":""
+        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1",
+        "label": ""
     },
-    {   
+    {
         "id": 11,
         "img": "Keepapp.png",
-        "PageName": "MsC",
+        "PageName": "Keep App",
         "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
-        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
-        "label":""
+        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1",
+        "label": ""
     },
-    {   
+    {
         "id": 12,
         "img": "Outlast.png",
-        "PageName": "MsC",
+        "PageName": "Outlast",
         "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
-        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
-        "label":""
-    }
-    ,
-    {   
+        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1",
+        "label": ""
+    },
+    {
         "id": 13,
         "img": "Profit.png",
         "PageName": "MsC",
         "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
-        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
-        "label":""
-    }
-    ,
-    {   
+        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1",
+        "label": ""
+    },
+    {
         "id": 14,
         "img": "Ruiz.png",
-        "PageName": "MsC",
-        "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
-        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
-        "label":""
+        "PageName": "Ruiz",
+        "Description": "Ruiz is an app where users can hire the owner of the app, which includes lots of event arrangements for design.",
+        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1",
+        "label": ""
     },
-    {   
+    {
         "id": 15,
         "img": "Applete.png",
-        "PageName": "MsC",
-        "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
-        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
-        "label":""
+        "PageName": "Applete",
+        "Description": "Applete is an app where users can join and create events and participate in various communities and clubs.",
+        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1",
+        "label": ""
     }
-    
 ]
