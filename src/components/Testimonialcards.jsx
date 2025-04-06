@@ -5,12 +5,12 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import { FaDiscord, FaFacebook, FaTwitter } from "react-icons/fa";
-import RogerImage from "/Roger.jpg";
-import RosalynImage from "/Rosalyn.png";
-import EzekielImage from "/Ezekiel.jpg";
-import AdrianneImage from "/Adrianne.jpg";
-import RobertImage from "/Robert.jpg";
-import JeroneImage from "/Jerone.jpg";
+import RogerImage from "../assets/Roger.jpg";
+import RosalynImage from "../assets/Rosalyn.png";
+import EzekielImage from "../assets/Ezekiel.jpg";
+import AdrianneImage from "../assets/Adrianne.jpg";
+import RobertImage from "../assets/Robert.jpg";
+import JeroneImage from "../assets/Jerone.jpg";
 
 const TestimonialCard = ({ person }) => {
   return (
@@ -35,7 +35,7 @@ const TestimonialCard = ({ person }) => {
         <FaTwitter />
       </div>
       <div></div>
-      <p className="overflow-hidden text-sm font-normal transition rounded-lg md:line-clamp-4 hover:line-clamp-none dark:font-light dark:text-dark-s text-light-s font-Roboto ">
+      <p className="overflow-hidden text-sm font-normal transition rounded-lg md:line-clamp-3 hover:line-clamp-none dark:font-light dark:text-dark-s text-light-s font-Roboto ">
         {person.testimonial}
       </p>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import AboutCard from "../components/aboutCards";
-import ShapeBack from "/FluppyGreenny.jpg";
-import ME from "/ME.png"
+import ShapeBack from "../assets/FluppyGreenny.jpg";
+import ME from "../assets/ME.png"
 const School = () => {
   return (
     <div className="flex flex-col py-10 text-light-p dark:text-dark-p px-3.5 justify-center bg-background-light dark:bg-background-dark">

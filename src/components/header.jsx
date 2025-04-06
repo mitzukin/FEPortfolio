@@ -5,7 +5,7 @@ import Logo from "/Logo.png";
 import { Link } from "react-router-dom";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { easeInOut, motion } from "framer-motion";
-import Profile from "/KinProfile.png";
+import Profile from "../assets/KinProfile.png";
 const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 

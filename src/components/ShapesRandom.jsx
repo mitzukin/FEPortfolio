@@ -1,10 +1,10 @@
 import React from "react";
-import Shape1 from "/shape1.png";
-import Shape2 from "/shape2.png";
-import Shape3 from "/shape3.png";
-import Shape4 from "/shape4.png";
-import Shape5 from "/shape5.png";
-import Shape6 from "/shape6.png";
+import Shape1 from "../assets/shape1.png";
+import Shape2 from "../assets/shape2.png";
+import Shape3 from "../assets/shape3.png";
+import Shape4 from "../assets/shape4.png";
+import Shape5 from "../assets/shape5.png";
+import Shape6 from "../assets/shape6.png";
 
 const ShapesRandom = () => {
   return (

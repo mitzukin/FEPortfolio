@@ -61,5 +61,64 @@
         "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
         "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
         "label":""
+    },
+    {   
+        "id": 9,
+        "img": "Bali.png",
+        "PageName": "MsC",
+        "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
+        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
+        "label":""
+    },
+    {   
+        "id": 10,
+        "img": "Coffee.png",
+        "PageName": "MsC",
+        "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
+        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
+        "label":""
+    },
+    {   
+        "id": 11,
+        "img": "Keepapp.png",
+        "PageName": "MsC",
+        "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
+        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
+        "label":""
+    },
+    {   
+        "id": 12,
+        "img": "Outlast.png",
+        "PageName": "MsC",
+        "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
+        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
+        "label":""
     }
+    ,
+    {   
+        "id": 13,
+        "img": "Profit.png",
+        "PageName": "MsC",
+        "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
+        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
+        "label":""
+    }
+    ,
+    {   
+        "id": 14,
+        "img": "Ruiz.png",
+        "PageName": "MsC",
+        "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
+        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
+        "label":""
+    },
+    {   
+        "id": 15,
+        "img": "Applete.png",
+        "PageName": "MsC",
+        "Description": "Music is my project dedicated to designing music playlists with intention. Each playlist is carefully curated to evoke specific vibes and emotions.",
+        "link": "https://www.figma.com/proto/CZ19EiliGFnzrFyXBrtTam/Untitled?type=design&node-id=2-200&t=9cHTMyNsIZtStq5c-1&scaling=contain&page-id=0%3A1&mode=design",
+        "label":""
+    }
+    
 ]

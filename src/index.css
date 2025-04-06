@@ -63,14 +63,6 @@
   background-size: cover;
 }
 
-.aboutpicture {
-  position: relative;
-  background-image: url('/ME.png');
-  /* Adjust the path as needed */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 
 .gradient {

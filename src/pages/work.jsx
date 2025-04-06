@@ -146,7 +146,7 @@ const Work = () => {
     <>
       <div className="min-h-screen px-3.5 py-10 font-primary bg-background-light dark:bg-background-dark text-light-p dark:text-dark-p">
         <div className="mx-auto max-w-screen-2xl templateContainer">
-          <div className="flex flex-col items-center gap-5 shadow-md lg:p-8 p-3.5 bg-blue bg-opacity-10 rounded-xl lg:flex-row">
+          <div className="flex flex-col items-center gap-5 shadow-md lg:p-8 p-3.5  bg-opacity-10 rounded-xl lg:flex-row">
             <div className="flex max-w-full lg:max-w-lg xl:max-w-2xl rounded-xl">
               <ProjectCarousel className="" />
             </div>
@@ -235,17 +235,17 @@ const Work = () => {
                   className="flex flex-col justify-between gap-2 p-3.5 border rounded-2xl shadow-md dark:border-slate-900"
                   key={val.id}
                 >
-                  <img src={val.img} alt="" className="rounded-xl " />
+                  <img src={val.img} alt="" className="duration-500 rounded-xl md:hover:scale-105" />
                   <h3 className="text-lg font-semibold font-Accent">
                     {val.PageName}
                   </h3>
                   <p className="text-sm dark:text-dark-s">{val.Description}</p>
-                  <a
+                  {/* <a
                     href={val.link}
                     className="px-4 py-2 text-sm text-center rounded-full text-dark-p max-w-32 bg-DarkBlue"
                   >
                     View Design
-                  </a>
+                  </a> */}
                   <div></div>
                 </div>
               ))}

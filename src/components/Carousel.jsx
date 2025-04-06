@@ -49,6 +49,7 @@ const Carousel = ({ items }) => {
                   alt={`Slide ${index + 1}`}
                   className="h-[30px] w-auto"
                 />
+                
           
             </li>
           ))}

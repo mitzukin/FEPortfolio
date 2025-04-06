@@ -1,10 +1,9 @@
 import React from "react";
-import FigmaIcon from "/FigmaIcon.png";
-import VsIcon from "/VsIcon.png";
+import FigmaIcon from "../assets/FigmaIcon.png";
+import VsIcon from "../assets/VsIcon.png";
 import W3School from "/W3School.png";
-import Google from "/Google3d.png";
-import CanvaIcon from "/CanvaIcon.png";
-import StackOverFlow from "/StackOverflow.png";
+import Google from "../assets/Google3d.png";
+import CanvaIcon from "../assets/CanvaIcon.png";
 const ToolsSection = () => {
   return (
     <div className="flex flex-col px-3.5  pt-10 transition-all duration-300 ease-in-out font-primary bg-background-light dark:bg-background-dark">

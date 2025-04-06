@@ -1,7 +1,7 @@
 import React from "react";
-import ResumeButton from "../components/ResumeButton";
-import HeroText from "/WebsiteIcon.png";
-import Profile from "/KinProfile.png";
+import ResumeButton from "../components/resumeButton";
+import HeroText from "../assets/WebsiteIcon.png";
+import Profile from "../assets/KinProfile.png";
 import ShapesRandom from "../components/ShapesRandom";
 import { motion } from "framer-motion";
 

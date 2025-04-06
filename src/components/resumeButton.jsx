@@ -1,6 +1,5 @@
 import React from "react";
 import { FaPaperclip } from "react-icons/fa6";
-import TajorResumePDF from "/Tajor_Resume.pdf"; // Import the PDF file
 
 const resumeButton = () => {
   const handleDownload = () => {

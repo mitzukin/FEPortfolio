@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { createHashHistory } from 'history';
+
 import Home from "./pages/home";
 import About from "./pages/about";
 import Work from "./pages/work";
@@ -8,6 +11,9 @@ import "./index.css";
 import Contact from "./pages/Contact";
 import ScrollToTop from "./Utils/ScrollToTop";
 import Loader from "./Utils/Loader";
+import NotFound from "./components/NotFound";
+
+const hashHistory = createHashHistory({ hashType: "/" });
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -27,7 +33,7 @@ const App = () => {
     <>
       {loading && <Loader />}
       {!loading && (
-        <Router basename="/FEPortfolio">
+        <Router history={hashHistory}>
           <Routes>
             <Route
               path="/about"
@@ -74,6 +80,7 @@ const App = () => {
                 </>
               }
             />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Router>
       )}
