@@ -1,6 +1,6 @@
 import React from "react";
 import { FaPaperclip } from "react-icons/fa6";
-
+import TajorResumePDF from "../assets/Tajor_CV.pdf"
 const resumeButton = () => {
   const handleDownload = () => {
     // Create a Blob containing the file data with the correct MIME type
